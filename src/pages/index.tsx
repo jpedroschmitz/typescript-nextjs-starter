@@ -17,6 +17,8 @@ const Home: React.FC<{}> = () => (
         Get started by editing <code>pages/index.js</code>
       </p>
 
+      <p className="description">This is not a official starter!</p>
+
       <div className="grid">
         <a href="https://nextjs.org/docs" className="card">
           <h3>Documentation &rarr;</h3>
@@ -49,11 +51,7 @@ const Home: React.FC<{}> = () => (
     </main>
 
     <footer>
-      <a
-        href="https://zeit.co?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <a href="https://zeit.co" target="_blank" rel="noopener noreferrer">
         Powered by <img src="/zeit.svg" alt="ZEIT Logo" />
       </a>
     </footer>
@@ -102,24 +100,6 @@ const Home: React.FC<{}> = () => (
           text-decoration: none;
         }
 
-        .title a {
-          color: #0070f3;
-          text-decoration: none;
-        }
-
-        .title a:hover,
-        .title a:focus,
-        .title a:active {
-          text-decoration: underline;
-        }
-
-        .title {
-          margin: 0;
-          line-height: 1.15;
-          font-size: 4rem;
-        }
-
-        .title,
         .description {
           text-align: center;
         }
