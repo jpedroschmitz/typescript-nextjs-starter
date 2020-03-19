@@ -1,7 +1,15 @@
 {
-  "name": "pages.rocketseat.com.br",
+  "name": "typescript-nextjs-starter",
+  "description": "A TypeScript starter for Next.js that includes all you need to build amazing projects",
   "version": "1.0.0",
   "private": true,
+  "author": "João Pedro Schmitz <oi@joaopedro.cc> (joaopedro.cc)",
+  "license": "MIT",
+  "keywords": [
+    "nextjs",
+    "starter",
+    "typescript"
+  ],
   "scripts": {
     "dev": "next",
     "build": "next build",

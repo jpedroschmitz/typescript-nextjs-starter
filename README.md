@@ -1,30 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  <img src="https://www.joaopedro.cc/img/github/typescript-nextjs-starter.png" alt="Next.js and TypeScript">
+</p>
 
-## Getting Started
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&style=flat-square&color=24B36B&labelColor=000000" alt="PRs welcome!" />
 
-First, run the development server:
+  <img alt="License" src="https://img.shields.io/github/license/jpedroschmitz/typescript-nextjs-starter?style=flat-square&color=24B36B&labelColor=000000">
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+  <a href="https://twitter.com/intent/follow?screen_name=jpedroschmitz">
+    <img src="https://img.shields.io/twitter/follow/jpedroschmitz?style=flat-square&color=24B36B&labelColor=000000" alt="Follow @jpedroschmitz" />
+  </a>
+</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<br>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+A TypeScript starter for Next.js that includes all you need to build amazing projects ⚡️
 
-## Learn More
+## 🧰 Tools
 
-To learn more about Next.js, take a look at the following resources:
+This starter features all the latest tools:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- ⚡ **Next.js** — A React framework
+- 🚀 **TypeScript** - Superset of JavaScript
+- 💖 **Lint** — ESlint/Prettier/EditorConfig
+- 🐶 **Husky** — Use git hooks with ease
+- 📄 **Commitizen** - Conventional commit messages CLI
+- 🚓 **Commitlint** - Lint commit messages
+- 🚫 **lint-staged** - Run linters against staged git files
 
-You can check out [the Next.js GitHub repository](https://github.com/zeit/next.js/) - your feedback and contributions are welcome!
+## 🚀 Getting started
 
-## Deploy on ZEIT Now
+First of all you need to have `node` and `npm` (or `yarn`) installed on your machine.
 
-The easiest way to deploy your Next.js app is to use the [ZEIT Now Platform](https://zeit.co/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Then, you can clone this repository and run the following commands inside the project folder:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. `npm install` or `yarn`;
+2. `yarn dev`;
+
+To view the project you can open `http://localhost:3000`.
+
+## 🤝 Contributing
+
+Add contributing
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for more information.
+
+---
+
+Made with ♥ by João Pedro Schmitz
