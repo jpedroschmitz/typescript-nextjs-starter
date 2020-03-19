@@ -6,8 +6,9 @@
       {
         "root": ["./src"],
         "alias": {
-          "@components": "./src/components"
-        }
+          "@": "./src"
+        },
+        "extensions": [".js", ".ts", ".jsx", ".tsx"]
       }
     ]
   ]
