@@ -3,26 +3,21 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&style=flat-square&color=24B36B&labelColor=000000" alt="PRs welcome!" />
+  <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&style=for-the-badge&color=24B36B&labelColor=000000" alt="PRs welcome!" />
 
-  <img alt="License" src="https://img.shields.io/github/license/jpedroschmitz/typescript-nextjs-starter?style=flat-square&color=24B36B&labelColor=000000">
+  <img alt="License" src="https://img.shields.io/github/license/jpedroschmitz/typescript-nextjs-starter?style=for-the-badge&color=24B36B&labelColor=000000">
 
   <a href="https://twitter.com/intent/follow?screen_name=jpedroschmitz">
-    <img src="https://img.shields.io/twitter/follow/jpedroschmitz?style=flat-square&color=24B36B&labelColor=000000" alt="Follow @jpedroschmitz" />
+    <img src="https://img.shields.io/twitter/follow/jpedroschmitz?style=for-the-badge&color=24B36B&labelColor=000000" alt="Follow @jpedroschmitz" />
   </a>
 </p>
 
 <br>
 
-A TypeScript starter for Next.js that includes all you need to build amazing projects ⚡️
+A TypeScript starter for Next.js that includes all you need to build amazing projects 🔥
 
-## 🧰 Tools
-
-This starter features all the latest tools:
-
-- ⚡ **Next.js** — A React framework
-- 🚀 **TypeScript** - Superset of JavaScript
-- 💖 **Lint** — ESlint/Prettier/EditorConfig
+- 📏 **ESLint** — Pluggable JavaScript linter
+- 💖 **Prettier** - Opinionated Code Formatter
 - 🐶 **Husky** — Use git hooks with ease
 - 📄 **Commitizen** - Conventional commit messages CLI
 - 🚓 **Commitlint** - Lint commit messages
