@@ -22,6 +22,7 @@ A TypeScript starter for Next.js that includes all you need to build amazing pro
 - 📄 **Commitizen** - Conventional commit messages CLI
 - 🚓 **Commitlint** - Lint commit messages
 - 🚫 **lint-staged** - Run linters against staged git files
+- 🗂 **Root import** - Import folders and files using the `@` prefix.
 
 ## 🚀 Getting started
 
