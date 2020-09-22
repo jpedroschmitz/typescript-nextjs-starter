@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 import Title from '@/components/Title';
 
-const Home: React.FC<{}> = () => (
+const Home: React.FC = () => (
   <div className="container">
     <Head>
       <title>Create Next App</title>
