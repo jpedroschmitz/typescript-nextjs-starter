@@ -17,7 +17,7 @@ const Home: React.FC = () => (
         Get started by editing <code>pages/index.js</code>
       </p>
 
-      <p className="description">This is not a official starter!</p>
+      <p className="description">This is not an official starter!</p>
 
       <div className="grid">
         <a href="https://nextjs.org/docs" className="card">
