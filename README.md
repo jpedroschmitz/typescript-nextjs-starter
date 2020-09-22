@@ -27,14 +27,18 @@ A TypeScript starter for Next.js that includes all you need to build amazing pro
 
 ## 🚀 Getting started
 
-First of all you need to have `node` and `npm` (or `yarn`) installed on your machine.
+The best way to start with this template is using `create-next-app`.
 
-Then, you can clone this repository and run the following commands inside the project folder:
+```
+npx create-next-app ts-next -e https://github.com/jpedroschmitz/typescript-nextjs-starter
+```
+
+If you prefer you can clone this repository and run the following commands inside the project folder:
 
 1. `npm install` or `yarn`;
 2. `yarn dev`;
 
-To view the project you can open `http://localhost:3000`.
+To view the project open `http://localhost:3000`.
 
 ## 🤝 Contributing
 
