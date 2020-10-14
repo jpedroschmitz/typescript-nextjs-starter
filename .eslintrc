@@ -31,7 +31,8 @@
         "js": "never",
         "jsx": "never"
       }
-    ]
+    ],
+    "quotes": ["error", "backtick"],
   },
   "overrides": [
     {
