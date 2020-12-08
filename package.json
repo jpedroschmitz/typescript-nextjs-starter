@@ -46,7 +46,7 @@
     "@typescript-eslint/parser": "4.8.2",
     "commitizen": "4.2.2",
     "cz-conventional-changelog": "3.3.0",
-    "eslint": "7.14.0",
+    "eslint": "7.15.0",
     "eslint-config-airbnb": "18.2.1",
     "eslint-config-prettier": "6.15.0",
     "eslint-import-resolver-typescript": "2.3.0",
