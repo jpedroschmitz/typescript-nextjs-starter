@@ -18,11 +18,14 @@
   "extends": ["airbnb", "eslint-config-prettier", "prettier/react"],
   "rules": {
     "prettier/prettier": "error",
+    "camelcase": "off",
     "import/prefer-default-export": "off",
     "react/prop-types": "off",
     "react/jsx-filename-extension": "off",
     "react/jsx-props-no-spreading": "off",
+    "react/no-unused-prop-types": "off",
     "react/react-in-jsx-scope": "off",
+    "react/require-default-props": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
@@ -33,7 +36,15 @@
         "jsx": "never"
       }
     ],
-    "quotes": ["error", "backtick"]
+    "quotes": "off",
+    "jsx-a11y/anchor-is-valid": [
+      "error",
+      {
+        "components": ["Link"],
+        "specialLink": ["hrefLeft", "hrefRight"],
+        "aspects": ["invalidHref", "preferButton"]
+      }
+    ]
   },
   "overrides": [
     {
@@ -45,12 +56,8 @@
         "eslint-config-prettier/@typescript-eslint"
       ],
       "rules": {
-        "@typescript-eslint/explicit-function-return-type": [
-          "warn",
-          {
-            "allowExpressions": true
-          }
-        ],
+        "@typescript-eslint/explicit-function-return-type": "off",
+        "@typescript-eslint/explicit-module-boundary-types": "off"
         "no-use-before-define": [0],
         "@typescript-eslint/no-use-before-define": [1],
         "@typescript-eslint/no-explicit-any": "off",
@@ -61,7 +68,7 @@
           {
             "avoidEscape": true
           }
-        ]
+        ],
       }
     }
   ],
@@ -70,6 +77,9 @@
       "typescript": {
         "project": "."
       }
+    },
+    "react": {
+      "version": "detect"
     }
   }
 }
