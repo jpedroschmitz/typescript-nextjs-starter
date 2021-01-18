@@ -44,7 +44,7 @@
     "@types/react-dom": "17.0.0",
     "@typescript-eslint/eslint-plugin": "4.13.0",
     "@typescript-eslint/parser": "4.13.0",
-    "commitizen": "4.2.2",
+    "commitizen": "4.2.3",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "7.18.0",
     "eslint-config-airbnb": "18.2.1",
