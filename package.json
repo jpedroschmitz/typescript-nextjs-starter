@@ -40,7 +40,7 @@
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-conventional": "11.0.0",
     "@types/node": "14.14.22",
-    "@types/react": "17.0.0",
+    "@types/react": "17.0.1",
     "@types/react-dom": "17.0.0",
     "@typescript-eslint/eslint-plugin": "4.14.2",
     "@typescript-eslint/parser": "4.14.2",
