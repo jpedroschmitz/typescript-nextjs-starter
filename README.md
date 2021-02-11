@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://www.joaopedro.cc/img/github/typescript-nextjs-starter.png" alt="Next.js and TypeScript">
+  <img src="https://user-images.githubusercontent.com/26466516/107675802-36216b80-6c77-11eb-8db1-4d3407dc53d9.png" alt="Next.js and TypeScript">
 </p>
 
 <p align="center">
