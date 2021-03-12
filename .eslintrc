@@ -15,7 +15,7 @@
     "SharedArrayBuffer": "readonly"
   },
   "plugins": ["import", "jsx-a11y", "react", "react-hooks", "prettier"],
-  "extends": ["airbnb", "eslint-config-prettier", "prettier/react"],
+  "extends": ["airbnb", "prettier"],
   "rules": {
     "prettier/prettier": "error",
     "camelcase": "off",
@@ -53,7 +53,7 @@
       "plugins": ["@typescript-eslint/eslint-plugin"],
       "extends": [
         "plugin:@typescript-eslint/recommended",
-        "eslint-config-prettier/@typescript-eslint"
+        "prettier"
       ],
       "rules": {
         "@typescript-eslint/explicit-function-return-type": "off",
