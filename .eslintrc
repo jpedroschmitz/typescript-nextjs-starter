@@ -15,7 +15,7 @@
     "SharedArrayBuffer": "readonly"
   },
   "plugins": ["import", "jsx-a11y", "react", "react-hooks", "prettier"],
-  "extends": ["airbnb", "prettier"],
+  "extends": ["airbnb", "prettier", "next", "next/core-web-vitals"],
   "rules": {
     "prettier/prettier": "error",
     "camelcase": "off",
@@ -51,10 +51,7 @@
       "files": "**/*.+(ts|tsx)",
       "parser": "@typescript-eslint/parser",
       "plugins": ["@typescript-eslint/eslint-plugin"],
-      "extends": [
-        "plugin:@typescript-eslint/recommended",
-        "prettier"
-      ],
+      "extends": ["plugin:@typescript-eslint/recommended", "prettier"],
       "rules": {
         "@typescript-eslint/explicit-function-return-type": "off",
         "@typescript-eslint/explicit-module-boundary-types": "off",
