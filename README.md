@@ -34,6 +34,8 @@ The best way to start with this template is using `create-next-app`.
 npx create-next-app ts-next -e https://github.com/jpedroschmitz/typescript-nextjs-starter
 ```
 
+Now you need to rename ***typescript-nextjs-starter*** in package.json to yourProjectName.
+
 If you prefer you can clone this repository and run the following commands inside the project folder:
 
 1. `npm install` or `yarn`;
