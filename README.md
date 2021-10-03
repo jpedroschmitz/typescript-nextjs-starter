@@ -36,7 +36,9 @@ npx create-next-app ts-next -e https://github.com/jpedroschmitz/typescript-nextj
 
 If you prefer you can clone this repository and run the following commands inside the project folder:
 
-1. `npm install` or `yarn`;
+> By default, this starter uses Yarn, but this choice is yours. If you'd like to switch to npm, delete the `yarn.lock` file, install the dependencies with `npm install`, and change the CI workflows, Husky Git hooks, and lint-staged steps to use npm commands.
+
+1. `yarn`;
 2. `yarn dev`;
 
 To view the project open `http://localhost:3000`.
