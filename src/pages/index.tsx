@@ -22,7 +22,7 @@ export default function Home() {
 
         <p className={styles.description}>
           Get started by editing{` `}
-          <code className={styles.code}>pages/index.js</code>
+          <code className={styles.code}>pages/index.tsx</code>
         </p>
 
         <p className={styles.description}>This is not an official starter!</p>
