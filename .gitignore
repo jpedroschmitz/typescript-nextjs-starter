@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+# JetBrains IDE files
+.idea/
+
 # testing
 /coverage
 
