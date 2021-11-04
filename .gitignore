@@ -7,7 +7,7 @@
 
 # JetBrains IDE files
 
-/.idea
+.idea/
 
 # testing
 /coverage
