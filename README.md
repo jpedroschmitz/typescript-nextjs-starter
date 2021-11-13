@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/26466516/141659424-3e650822-470f-47c7-a475-c7dd3f9b5126.png" alt="Next.js TypeScript Starter">
+  <img src="https://user-images.githubusercontent.com/26466516/141659551-d7ba5630-7200-46fe-863b-87818dae970a.png" alt="Next.js TypeScript Starter">
 </p>
 
 <br />
 
 <div align="center"><strong>Non-opinionated TypeScript starter for Next.js</strong></div>
-<div align="center">A highly scalable foundation with the best DX. All the tools you need to build your next project.</div>
+<div align="center">Highly scalable foundation with the best DX. All the tools you need to build your next project.</div>
 
 <br />
 
@@ -22,6 +22,8 @@
 <div align="center">
   <sub>Created by <a href="https://twitter.com/jpedroschmitz">João Pedro</a> with the help of many <a href="https://github.com/jpedroschmitz/typescript-nextjs-starter/graphs/contributors">wonderful contributors</a>.</sub>
 </div>
+
+<br />
 
 ## 🚀 Features
 
