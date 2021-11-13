@@ -61,16 +61,6 @@ yarn dev
 
 Open `http://localhost:3000` with your browser to see the result.
 
-## 🥾 Bootstrapped with Next.js TypeScript Starter
-
-List of websites that started off with Next.js TypeScript Starter:
-
-- [dowhile.io](https://dowhile.io)
-- [graphcms.com](https://graphcms.com)
-- [mobg.com.br](https://mobg.com.br)
-- [nextlevelweek.com](https://nextlevelweek.com)
-- [rocketseat.com.br](https://www.rocketseat.com.br)
-
 ## ✨ Testimonials
 
 > [**“This starter is by far the best TypeScript starter for Next.js. Feature packed but un-opinionated at the same time!”**](https://github.com/jpedroschmitz/typescript-nextjs-starter/issues/87#issue-789642190)<br>
@@ -81,6 +71,16 @@ List of websites that started off with Next.js TypeScript Starter:
 
 > [**“Brilliant work!”**](https://github.com/jpedroschmitz/typescript-nextjs-starter/issues/87#issuecomment-769314539)<br>
 > — Soham Dasgupta
+
+## 🥾 Bootstrapped with Next.js TypeScript Starter
+
+List of websites that started off with Next.js TypeScript Starter:
+
+- [dowhile.io](https://dowhile.io)
+- [graphcms.com](https://graphcms.com)
+- [mobg.com.br](https://mobg.com.br)
+- [nextlevelweek.com](https://nextlevelweek.com)
+- [rocketseat.com.br](https://www.rocketseat.com.br)
 
 ## 📝 License
 
