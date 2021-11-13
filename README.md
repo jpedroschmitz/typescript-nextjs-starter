@@ -25,7 +25,7 @@
 
 <br />
 
-## 🚀 Features
+## Features
 
 - ⚡️ Next.js 12
 - ⚛️ React 17
@@ -41,7 +41,7 @@
 - ⚙️ EditorConfig - Maintain consistent coding styles across editors and IDEs
 - 🗂 Path Mapping — Import components or images using the `@` prefix
 
-## ⚡️ Quick Start
+## Quick Start
 
 The best way to start with this template is using [Create Next App](https://nextjs.org/docs/api-reference/create-next-app).
 
@@ -61,7 +61,7 @@ yarn dev
 
 Open `http://localhost:3000` with your browser to see the result.
 
-## ✨ Testimonials
+## Testimonials
 
 > [**“This starter is by far the best TypeScript starter for Next.js. Feature packed but un-opinionated at the same time!”**](https://github.com/jpedroschmitz/typescript-nextjs-starter/issues/87#issue-789642190)<br>
 > — Arafat Zahan
@@ -72,7 +72,7 @@ Open `http://localhost:3000` with your browser to see the result.
 > [**“Brilliant work!”**](https://github.com/jpedroschmitz/typescript-nextjs-starter/issues/87#issuecomment-769314539)<br>
 > — Soham Dasgupta
 
-## 🥾 Bootstrapped with Next.js TypeScript Starter
+## Bootstrapped with Next.js TypeScript Starter
 
 List of websites that started off with Next.js TypeScript Starter:
 
@@ -82,6 +82,6 @@ List of websites that started off with Next.js TypeScript Starter:
 - [nextlevelweek.com](https://nextlevelweek.com)
 - [rocketseat.com.br](https://www.rocketseat.com.br)
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for more information.
