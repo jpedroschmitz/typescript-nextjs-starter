@@ -82,7 +82,7 @@ List of websites that started off with Next.js TypeScript Starter:
 - [nextlevelweek.com](https://nextlevelweek.com)
 - [rocketseat.com.br](https://www.rocketseat.com.br)
 
-## Docs
+## Documentation
 
 ### Requirements
 
