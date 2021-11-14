@@ -84,14 +84,17 @@ List of websites that started off with Next.js TypeScript Starter:
 
 ## Docs
 
-Before you get started, make sure you have installed Node.js >= 12.22.0 and Yarn 1 (Classic). If you'd like to switch to npm, delete the `yarn.lock` file, install the dependencies with `npm install`, and change the CI workflows, Husky Git hooks, and lint-staged steps to use npm commands.
+### Requirements
+
+- Node.js >= 12.22.0
+- Yarn 1 (Classic)
 
 ### Directory Structure
 
-`├──`[`.github`](.github) — GitHub configuration including the CI workflow.<br>
-`├──`[`.husky`](.husky) — Husky configuration and hooks.<br>
-`├──`[`public`](./public) — Static assets such as robots.txt, images, and favicon.<br>
-`└──`[`src`](./src) — Application source code, including pages, components, styles.
+- [`.github`](.github) — GitHub configuration including the CI workflow.<br>
+- [`.husky`](.husky) — Husky configuration and hooks.<br>
+- [`public`](./public) — Static assets such as robots.txt, images, and favicon.<br>
+- [`src`](./src) — Application source code, including pages, components, styles.
 
 ### Scripts
 
@@ -105,7 +108,7 @@ Before you get started, make sure you have installed Node.js >= 12.22.0 and Yarn
 
 ### Path Mapping
 
-TypeScript are pre-configured with custom path mappings. To import components or files, you can use the `@` prefix.
+TypeScript are pre-configured with custom path mappings. To import components or files, use the `@` prefix.
 
 ```tsx
 import { Button } from '@/components/Button';
@@ -113,6 +116,10 @@ import { Button } from '@/components/Button';
 // To import images or other files from the public folder
 import avatar from '@/public/avatar.png';
 ```
+
+### Switch to npm
+
+By default, this starter uses Yarn 1 (Classic), but this choice is yours. If you'd like to switch to npm, delete the `yarn.lock` file, install the dependencies with `npm install`, and change the CI workflows, Husky Git hooks, and lint-staged steps to use npm commands.
 
 ## License
 
