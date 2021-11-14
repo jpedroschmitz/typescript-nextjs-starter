@@ -72,7 +72,7 @@ Open `http://localhost:3000` with your browser to see the result.
 > [**“Brilliant work!”**](https://github.com/jpedroschmitz/typescript-nextjs-starter/issues/87#issuecomment-769314539)<br>
 > — Soham Dasgupta
 
-## Bootstrapped with Next.js TypeScript Starter
+## Showcase
 
 List of websites that started off with Next.js TypeScript Starter:
 
@@ -81,6 +81,38 @@ List of websites that started off with Next.js TypeScript Starter:
 - [mobg.com.br](https://mobg.com.br)
 - [nextlevelweek.com](https://nextlevelweek.com)
 - [rocketseat.com.br](https://www.rocketseat.com.br)
+
+## Docs
+
+Before you get started, make sure you have installed Node.js >= 12.22.0 and Yarn 1 (Classic). If you'd like to switch to npm, delete the `yarn.lock` file, install the dependencies with `npm install`, and change the CI workflows, Husky Git hooks, and lint-staged steps to use npm commands.
+
+### Directory Structure
+
+`├──`[`.github`](.github) — GitHub configuration including the CI workflow.<br>
+`├──`[`.husky`](.husky) — Husky configuration and hooks.<br>
+`├──`[`public`](./public) — Static assets such as robots.txt, images, and favicon.<br>
+`└──`[`src`](./src) — Application source code, including pages, components, styles.
+
+### Scripts
+
+- `yarn dev` — Starts the application in development mode at `http://localhost:3000`.
+- `yarn build` — Creates an optimized production build of your application.
+- `yarn start` — Starts the application in production mode.
+- `yarn type-check` — Validate code using TypeScript compiler.
+- `yarn lint` — Runs ESLint for all files in the `src` directory.
+- `yarn format` — Runs Prettier for all files in the `src` directory.
+- `yarn commit` — Run commitizen. Alternative to `git commit`.
+
+### Path Mapping
+
+TypeScript are pre-configured with custom path mappings. To import components or files, you can use the `@` prefix.
+
+```tsx
+import { Button } from '@/components/Button';
+
+// To import images or other files from the public folder
+import avatar from '@/public/avatar.png';
+```
 
 ## License
 
