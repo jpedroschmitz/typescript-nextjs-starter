@@ -22,7 +22,7 @@ jobs:
           node-version: 14
 
       - name: Install dependencies (with cache)
-        uses: bahmutov/npm-install@HEAD
+        uses: bahmutov/npm-install@v1
 
       - name: Check types
         run: yarn type-check
