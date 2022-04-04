@@ -28,7 +28,7 @@
 ## Features
 
 - ⚡️ Next.js 12
-- ⚛️ React 17
+- ⚛️ React 18
 - ⛑ TypeScript
 - 📏 ESLint — Find and fix problems in your code
 - 💖 Prettier — Code Formatter for consistent style
