@@ -32,8 +32,8 @@
     "react-dom": "18.1.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "16.2.3",
-    "@commitlint/config-conventional": "16.2.1",
+    "@commitlint/cli": "16.2.4",
+    "@commitlint/config-conventional": "16.2.4",
     "@types/node": "16.11.27",
     "@types/react": "18.0.8",
     "@types/react-dom": "18.0.3",
