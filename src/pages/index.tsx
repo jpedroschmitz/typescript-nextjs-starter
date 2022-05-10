@@ -22,10 +22,8 @@ export default function Home() {
 
         <p className={styles.description}>
           Get started by editing{` `}
-          <code className={styles.code}>pages/index.tsx</code>
+          <code className={styles.code}>src/pages/index.tsx</code>
         </p>
-
-        <p className={styles.description}>This is not an official starter!</p>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
