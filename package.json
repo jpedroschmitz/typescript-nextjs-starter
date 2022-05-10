@@ -22,8 +22,8 @@
   },
   "lint-staged": {
     "./src/**/*.{ts,js,jsx,tsx}": [
-      "yarn lint --fix",
-      "yarn format"
+      "eslint --ignore-path .gitignore --fix",
+      "prettier --ignore-path .gitignore --write"
     ]
   },
   "dependencies": {
