@@ -41,7 +41,7 @@
     "@typescript-eslint/parser": "5.25.0",
     "commitizen": "4.2.4",
     "cz-conventional-changelog": "3.3.0",
-    "eslint": "8.15.0",
+    "eslint": "8.16.0",
     "eslint-config-next": "12.1.6",
     "eslint-config-prettier": "8.5.0",
     "eslint-import-resolver-typescript": "2.7.1",
