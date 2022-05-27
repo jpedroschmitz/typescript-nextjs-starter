@@ -49,7 +49,7 @@
     "husky": "8.0.1",
     "lint-staged": "12.4.1",
     "prettier": "2.6.2",
-    "typescript": "4.6.4"
+    "typescript": "4.7.2"
   },
   "config": {
     "commitizen": {
