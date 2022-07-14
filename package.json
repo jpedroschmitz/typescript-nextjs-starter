@@ -36,7 +36,7 @@
     "@commitlint/config-conventional": "17.0.3",
     "@types/node": "16.11.43",
     "@types/react": "18.0.15",
-    "@types/react-dom": "18.0.5",
+    "@types/react-dom": "18.0.6",
     "@typescript-eslint/eslint-plugin": "5.30.5",
     "@typescript-eslint/parser": "5.30.5",
     "commitizen": "4.2.4",
