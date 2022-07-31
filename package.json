@@ -27,7 +27,7 @@
     ]
   },
   "dependencies": {
-    "next": "12.2.2",
+    "next": "12.2.3",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
@@ -42,7 +42,7 @@
     "commitizen": "4.2.4",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "8.20.0",
-    "eslint-config-next": "12.2.2",
+    "eslint-config-next": "12.2.3",
     "eslint-config-prettier": "8.5.0",
     "eslint-import-resolver-typescript": "3.2.5",
     "eslint-plugin-prettier": "4.2.1",
