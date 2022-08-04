@@ -80,10 +80,11 @@ Open `http://localhost:3000` with your browser to see the result.
 List of websites that started off with Next.js TypeScript Starter:
 
 - [dowhile.io](https://dowhile.io)
-- [graphcms.com](https://graphcms.com)
+- [hygraph.com](https://hygraph.com)
 - [mobg.com.br](https://mobg.com.br)
 - [nextlevelweek.com](https://nextlevelweek.com)
 - [rocketseat.com.br](https://www.rocketseat.com.br)
+- [Add yours](https://github.com/jpedroschmitz/typescript-nextjs-starter/edit/main/README.md)
 
 ## Documentation
 
