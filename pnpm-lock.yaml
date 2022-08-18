@@ -4,7 +4,7 @@ specifiers:
   '@commitlint/cli': 17.0.3
   '@commitlint/config-conventional': 17.0.3
   '@types/node': 16.11.47
-  '@types/react': 18.0.15
+  '@types/react': 18.0.17
   '@types/react-dom': 18.0.6
   '@typescript-eslint/eslint-plugin': 5.33.1
   '@typescript-eslint/parser': 5.33.1
@@ -31,7 +31,7 @@ devDependencies:
   '@commitlint/cli': 17.0.3
   '@commitlint/config-conventional': 17.0.3
   '@types/node': 16.11.47
-  '@types/react': 18.0.15
+  '@types/react': 18.0.17
   '@types/react-dom': 18.0.6
   '@typescript-eslint/eslint-plugin': 5.33.1_vsoshirnpb7xw6mr7xomgfas2i
   '@typescript-eslint/parser': 5.33.1_4rv7y5c6xz3vfxwhbrcxxi73bq
@@ -521,11 +521,11 @@ packages:
   /@types/react-dom/18.0.6:
     resolution: {integrity: sha512-/5OFZgfIPSwy+YuIBP/FgJnQnsxhZhjjrnxudMddeblOouIodEQ75X14Rr4wGSG/bknL+Omy9iWlLo1u/9GzAA==}
     dependencies:
-      '@types/react': 18.0.15
+      '@types/react': 18.0.17
     dev: true
 
-  /@types/react/18.0.15:
-    resolution: {integrity: sha512-iz3BtLuIYH1uWdsv6wXYdhozhqj20oD4/Hk2DNXIn1kFsmp9x8d9QB6FnPhfkbhd2PgEONt9Q1x/ebkwjfFLow==}
+  /@types/react/18.0.17:
+    resolution: {integrity: sha512-38ETy4tL+rn4uQQi7mB81G7V1g0u2ryquNmsVIOKUAEIDK+3CUjZ6rSRpdvS99dNBnkLFL83qfmtLacGOTIhwQ==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
