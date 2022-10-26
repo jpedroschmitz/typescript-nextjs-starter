@@ -80,7 +80,6 @@ List of websites that started off with Next.js TypeScript Starter:
 
 - [dowhile.io](https://dowhile.io)
 - [hygraph.com](https://hygraph.com)
-- [mobg.com.br](https://mobg.com.br)
 - [nextlevelweek.com](https://nextlevelweek.com)
 - [rocketseat.com.br](https://www.rocketseat.com.br)
 - [unfork.vercel.app](https://unfork.vercel.app)
