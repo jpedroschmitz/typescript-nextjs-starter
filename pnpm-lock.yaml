@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@commitlint/cli': 17.1.2
   '@commitlint/config-conventional': 17.1.0
-  '@types/node': 18.11.5
+  '@types/node': 18.11.6
   '@types/react': 18.0.23
   '@types/react-dom': 18.0.7
   '@typescript-eslint/eslint-plugin': 5.41.0
@@ -30,7 +30,7 @@ dependencies:
 devDependencies:
   '@commitlint/cli': 17.1.2
   '@commitlint/config-conventional': 17.1.0
-  '@types/node': 18.11.5
+  '@types/node': 18.11.6
   '@types/react': 18.0.23
   '@types/react-dom': 18.0.7
   '@typescript-eslint/eslint-plugin': 5.41.0_huremdigmcnkianavgfk3x6iou
@@ -508,8 +508,8 @@ packages:
     resolution: {integrity: sha512-0b+utRBSYj8L7XAp0d+DX7lI4cSmowNaaTkk6/1SKzbKkG+doLuPusB9EOvzLJ8ahJSk03bTLIL6cWaEd4dBKA==}
     dev: true
 
-  /@types/node/18.11.5:
-    resolution: {integrity: sha512-3JRwhbjI+cHLAkUorhf8RnqUbFXajvzX4q6fMn5JwkgtuwfYtRQYI3u4V92vI6NJuTsbBQWWh3RZjFsuevyMGQ==}
+  /@types/node/18.11.6:
+    resolution: {integrity: sha512-j3CEDa2vd96K0AXF8Wur7UucACvnjkk8hYyQAHhUNciabZLDl9nfAEVUSwmh245OOZV15bRA3Y590Gi5jUcDJg==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
