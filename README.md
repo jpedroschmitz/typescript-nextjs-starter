@@ -27,7 +27,7 @@
 
 ## Features
 
-- ⚡️ Next.js 12
+- ⚡️ Next.js 13
 - ⚛️ React 18
 - ⛑ TypeScript
 - 📏 ESLint — To find and fix problems in your code
