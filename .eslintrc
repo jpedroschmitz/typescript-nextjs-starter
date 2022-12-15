@@ -1,6 +1,16 @@
 {
-  "plugins": ["prettier"],
-  "extends": ["next", "next/core-web-vitals", "prettier"],
+  "plugins": [
+    "prettier",
+    "unused-imports",
+    "sort-keys-fix"
+  ],
+  "extends": [
+    "next",
+    "next/core-web-vitals",
+    "prettier",
+    "plugin:typescript-sort-keys/recommended",
+    "plugin:@dword-design/import-alias/recommended"
+  ],
   "rules": {
     "prettier/prettier": "error",
     "camelcase": "off",
@@ -27,6 +37,14 @@
         "specialLink": ["hrefLeft", "hrefRight"],
         "aspects": ["invalidHref", "preferButton"]
       }
+    ],
+    "@dword-design/import-alias/prefer-alias": [
+      "error",
+      {
+        "alias": {
+          "@": "./src/"
+        }
+      }
     ]
   },
   "overrides": [
@@ -48,7 +66,8 @@
           {
             "avoidEscape": true
           }
-        ]
+        ],
+        "unused-imports/no-unused-imports": "error"
       }
     }
   ]
