@@ -83,6 +83,7 @@ List of websites that started off with Next.js TypeScript Starter:
 - [nextlevelweek.com](https://nextlevelweek.com)
 - [rocketseat.com.br](https://www.rocketseat.com.br)
 - [unfork.vercel.app](https://unfork.vercel.app)
+- [cryptools.dev](https://cryptools.dev)
 - [Add yours](https://github.com/jpedroschmitz/typescript-nextjs-starter/edit/main/README.md)
 
 ## Documentation
