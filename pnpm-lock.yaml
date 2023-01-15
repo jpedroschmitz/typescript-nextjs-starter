@@ -14,7 +14,7 @@ specifiers:
   eslint-import-resolver-typescript: 3.5.2
   eslint-plugin-import: 2.26.0
   eslint-plugin-prettier: 4.2.1
-  husky: 8.0.2
+  husky: 8.0.3
   lint-staged: 13.1.0
   next: 13.1.1
   prettier: 2.8.2
@@ -41,7 +41,7 @@ devDependencies:
   eslint-import-resolver-typescript: 3.5.2_2lbwmhbr7bncddqbzzpg77o75m
   eslint-plugin-import: 2.26.0_p6eswnf3xl3aaa2djfyukgz5eq
   eslint-plugin-prettier: 4.2.1_2yh4e5vozmhfm4bfonrgkes4uq
-  husky: 8.0.2
+  husky: 8.0.3
   lint-staged: 13.1.0
   prettier: 2.8.2
   typescript: 4.9.4
@@ -1908,8 +1908,8 @@ packages:
     engines: {node: '>=12.20.0'}
     dev: true
 
-  /husky/8.0.2:
-    resolution: {integrity: sha512-Tkv80jtvbnkK3mYWxPZePGFpQ/tT3HNSs/sasF9P2YfkMezDl3ON37YN6jUUI4eTg5LcyVynlb6r4eyvOmspvg==}
+  /husky/8.0.3:
+    resolution: {integrity: sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
