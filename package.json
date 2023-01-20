@@ -42,7 +42,7 @@
     "eslint-config-next": "13.1.2",
     "eslint-config-prettier": "8.5.0",
     "eslint-import-resolver-typescript": "3.5.3",
-    "eslint-plugin-import": "2.27.4",
+    "eslint-plugin-import": "2.27.5",
     "eslint-plugin-prettier": "4.2.1",
     "husky": "8.0.3",
     "lint-staged": "13.1.0",
