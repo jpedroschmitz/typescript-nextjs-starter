@@ -26,8 +26,8 @@
     ]
   },
   "dependencies": {
-    "@next/font": "13.2.3",
-    "next": "13.2.3",
+    "@next/font": "13.2.4",
+    "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
@@ -40,7 +40,7 @@
     "@typescript-eslint/eslint-plugin": "5.54.1",
     "@typescript-eslint/parser": "5.54.1",
     "eslint": "8.35.0",
-    "eslint-config-next": "13.2.3",
+    "eslint-config-next": "13.2.4",
     "eslint-config-prettier": "8.7.0",
     "eslint-import-resolver-typescript": "3.5.3",
     "eslint-plugin-import": "2.27.5",
