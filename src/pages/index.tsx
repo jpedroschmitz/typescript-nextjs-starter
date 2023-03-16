@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import { Inter } from '@next/font/google';
+import { Inter } from 'next/font/google';
 import styles from '@/styles/Home.module.css';
 
 // Note: The subsets need to use single quotes because the font loader values must be explicitly written literal.
