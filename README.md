@@ -27,7 +27,7 @@
 
 ## Features
 
-- ⚡️ Next.js 13
+- ⚡️ Next.js 13 (App Router)
 - ⚛️ React 18
 - ⛑ TypeScript
 - 📏 ESLint — To find and fix problems in your code
@@ -78,9 +78,7 @@ Open `http://localhost:3000` with your browser to see the result.
 
 List of websites that started off with Next.js TypeScript Starter:
 
-- [dowhile.io](https://dowhile.io)
 - [hygraph.com](https://hygraph.com)
-- [nextlevelweek.com](https://nextlevelweek.com)
 - [rocketseat.com.br](https://www.rocketseat.com.br)
 - [unfork.vercel.app](https://unfork.vercel.app)
 - [cryptools.dev](https://cryptools.dev)
@@ -90,8 +88,8 @@ List of websites that started off with Next.js TypeScript Starter:
 
 ### Requirements
 
-- Node.js >= 12.22.0
-- pnpm 7
+- Node.js >= 16
+- pnpm 8
 
 ### Directory Structure
 
