@@ -33,7 +33,7 @@
   "devDependencies": {
     "@commitlint/cli": "17.6.7",
     "@commitlint/config-conventional": "17.6.7",
-    "@types/node": "18.17.2",
+    "@types/node": "18.17.3",
     "@types/react": "18.2.18",
     "@types/react-dom": "18.2.7",
     "@typescript-eslint/eslint-plugin": "6.2.1",
