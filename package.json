@@ -33,6 +33,7 @@
   "devDependencies": {
     "@commitlint/cli": "18.4.1",
     "@commitlint/config-conventional": "18.4.0",
+    "@ianvs/prettier-plugin-sort-imports": "4.1.1",
     "@types/node": "20.9.0",
     "@types/react": "18.2.37",
     "@types/react-dom": "18.2.15",
@@ -47,6 +48,7 @@
     "husky": "8.0.3",
     "lint-staged": "15.1.0",
     "prettier": "3.1.0",
+    "prettier-plugin-sort-json": "3.1.0",
     "typescript": "5.2.2"
   }
 }
