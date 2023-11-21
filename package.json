@@ -31,8 +31,8 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "18.4.1",
-    "@commitlint/config-conventional": "18.4.0",
+    "@commitlint/cli": "18.4.2",
+    "@commitlint/config-conventional": "18.4.2",
     "@ianvs/prettier-plugin-sort-imports": "4.1.1",
     "@types/node": "20.9.1",
     "@types/react": "18.2.37",
