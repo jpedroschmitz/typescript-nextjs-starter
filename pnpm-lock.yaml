@@ -26,8 +26,8 @@ devDependencies:
     specifier: 4.1.1
     version: 4.1.1(prettier@3.1.0)
   '@types/node':
-    specifier: 20.10.1
-    version: 20.10.1
+    specifier: 20.10.2
+    version: 20.10.2
   '@types/react':
     specifier: 18.2.39
     version: 18.2.39
@@ -681,8 +681,8 @@ packages:
     resolution: {integrity: sha512-wf3Vz+jCmOQ2HV1YUJuCWdL64adYxumkrxtc+H1VUQlnQI04+5HtH+qZCOE21lBE7gIrt+CwX2Wv8Acrw5Ak6w==}
     dev: true
 
-  /@types/node@20.10.1:
-    resolution: {integrity: sha512-T2qwhjWwGH81vUEx4EXmBKsTJRXFXNZTL4v0gi01+zyBmCwzE6TyHszqX01m+QHTEq+EZNo13NeJIdEqf+Myrg==}
+  /@types/node@20.10.2:
+    resolution: {integrity: sha512-37MXfxkb0vuIlRKHNxwCkb60PNBpR94u4efQuN4JgIAm66zfCDXGSAFCef9XUWFovX2R1ok6Z7MHhtdVXXkkIw==}
     dependencies:
       undici-types: 5.26.5
     dev: true
