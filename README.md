@@ -113,7 +113,6 @@ TypeScript are pre-configured with custom path mappings. To import components or
 
 ```tsx
 import { Button } from '@/components/Button';
-
 // To import images or other files from the public folder
 import avatar from '@/public/avatar.png';
 ```
@@ -121,6 +120,8 @@ import avatar from '@/public/avatar.png';
 ### Switch to Yarn/npm
 
 This starter uses pnpm by default, but this choice is yours. If you'd like to switch to Yarn/npm, delete the `pnpm-lock.yaml` file, install the dependencies with Yarn/npm, change the CI workflow, and Husky Git hooks to use Yarn/npm commands.
+
+> **Note:** If you use Yarn, make sure to follow these steps from the [Husky documentation](https://typicode.github.io/husky/troubleshoot.html#yarn-on-windows) so that Git hooks do not fail with Yarn on Windows.
 
 ## License
 
