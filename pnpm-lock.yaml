@@ -68,8 +68,8 @@ devDependencies:
     specifier: 3.2.5
     version: 3.2.5
   prettier-plugin-sort-json:
-    specifier: 3.1.0
-    version: 3.1.0(prettier@3.2.5)
+    specifier: 4.0.0
+    version: 4.0.0(prettier@3.2.5)
   typescript:
     specifier: 5.3.3
     version: 5.3.3
@@ -3332,9 +3332,9 @@ packages:
       fast-diff: 1.2.0
     dev: true
 
-  /prettier-plugin-sort-json@3.1.0(prettier@3.2.5):
-    resolution: {integrity: sha512-eIDEUjwzekiVd+oKrpd0aoACBTp5zOW71wDTNy+qQ5C9Q8oqt9n9wCm4F+SeRZbXfgblh/WYIguJynImlBXrvQ==}
-    engines: {node: '>=16.0.0'}
+  /prettier-plugin-sort-json@4.0.0(prettier@3.2.5):
+    resolution: {integrity: sha512-zV5g+bWFD2zAqyQ8gCkwUTC49o9FxslaUdirwivt5GZHcf57hCocavykuyYqbExoEsuBOg8IU36OY7zmVEMOWA==}
+    engines: {node: '>=18.0.0'}
     peerDependencies:
       prettier: ^3.0.0
     dependencies:
