@@ -37,4 +37,4 @@ jobs:
         run: pnpm lint
 
       - name: Check commits messages
-        uses: wagoid/commitlint-github-action@v5
+        uses: wagoid/commitlint-github-action@v6
