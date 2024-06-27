@@ -27,7 +27,7 @@
 
 ## Features
 
-- ⚡️ Next.js 13 (App Router)
+- ⚡️ Next.js 14 (App Router)
 - ⚛️ React 18
 - ⛑ TypeScript
 - 📏 ESLint — To find and fix problems in your code
@@ -88,8 +88,8 @@ List of websites that started off with Next.js TypeScript Starter:
 
 ### Requirements
 
-- Node.js >= 16
-- pnpm 8
+- Node.js >= 20
+- pnpm 9
 
 ### Directory Structure
 
