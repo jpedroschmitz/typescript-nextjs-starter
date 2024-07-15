@@ -25,8 +25,8 @@ importers:
         specifier: 19.2.2
         version: 19.2.2
       '@ianvs/prettier-plugin-sort-imports':
-        specifier: 4.3.0
-        version: 4.3.0(prettier@3.3.2)
+        specifier: 4.3.1
+        version: 4.3.1(prettier@3.3.2)
       '@types/node':
         specifier: 20.14.10
         version: 20.14.10
@@ -281,8 +281,8 @@ packages:
     resolution: {integrity: sha512-6EwiSjwWYP7pTckG6I5eyFANjPhmPjUX9JRLUSfNPC7FX7zK9gyZAfUEaECL6ALTpGX5AjnBq3C9XmVWPitNpw==}
     deprecated: Use @eslint/object-schema instead
 
-  '@ianvs/prettier-plugin-sort-imports@4.3.0':
-    resolution: {integrity: sha512-OOMtUcO4J3LoL63dOKAe7bn+lSRRPeit2DqNHpx+wvBp3Grejo2PMaK4Mp1mwy8pnat64ccSgk/lBZbsAdLErw==}
+  '@ianvs/prettier-plugin-sort-imports@4.3.1':
+    resolution: {integrity: sha512-ZHwbyjkANZOjaBm3ZosADD2OUYGFzQGxfy67HmGZU94mHqe7g1LCMA7YYKB1Cq+UTPCBqlAYapY0KXAjKEw8Sg==}
     peerDependencies:
       '@vue/compiler-sfc': 2.7.x || 3.x
       prettier: 2 || 3
@@ -2349,7 +2349,7 @@ snapshots:
 
   '@humanwhocodes/object-schema@2.0.2': {}
 
-  '@ianvs/prettier-plugin-sort-imports@4.3.0(prettier@3.3.2)':
+  '@ianvs/prettier-plugin-sort-imports@4.3.1(prettier@3.3.2)':
     dependencies:
       '@babel/core': 7.24.4
       '@babel/generator': 7.24.4
