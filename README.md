@@ -78,6 +78,7 @@ Open `http://localhost:3000` with your browser to see the result.
 
 List of websites that started off with Next.js TypeScript Starter:
 
+- [FreeInvoice.dev](https://freeinvoice.dev)
 - [hygraph.com](https://hygraph.com)
 - [rocketseat.com.br](https://www.rocketseat.com.br)
 - [unfork.vercel.app](https://unfork.vercel.app)
