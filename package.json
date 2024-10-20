@@ -34,7 +34,7 @@
     "@commitlint/cli": "19.5.0",
     "@commitlint/config-conventional": "19.5.0",
     "@ianvs/prettier-plugin-sort-imports": "4.3.1",
-    "@types/node": "20.16.11",
+    "@types/node": "20.16.12",
     "@types/react": "18.3.11",
     "@types/react-dom": "18.3.1",
     "@typescript-eslint/eslint-plugin": "8.9.0",
