@@ -15,14 +15,14 @@
     "build": "next build",
     "start": "next start",
     "type-check": "tsc --noEmit",
-    "lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\"",
-    "format": "prettier --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\" --write",
+    "lint": "eslint \"src/**/*.+(ts|js|tsx)\"",
+    "format": "prettier . --write",
     "postinstall": "husky"
   },
   "lint-staged": {
     "./src/**/*.{ts,js,jsx,tsx}": [
-      "eslint --ignore-path .gitignore --fix",
-      "prettier --ignore-path .gitignore --write"
+      "eslint \"src/**/*.+(ts|js|tsx)\" --fix",
+      "prettier . --write"
     ]
   },
   "dependencies": {
@@ -33,17 +33,17 @@
   "devDependencies": {
     "@commitlint/cli": "19.5.0",
     "@commitlint/config-conventional": "19.5.0",
+    "@eslint/eslintrc": "3.1.0",
+    "@eslint/js": "9.13.0",
     "@ianvs/prettier-plugin-sort-imports": "4.3.1",
-    "@types/node": "20.17.0",
+    "@types/node": "22.8.1",
     "@types/react": "npm:types-react@19.0.0-rc.1",
     "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1",
     "@typescript-eslint/eslint-plugin": "8.11.0",
     "@typescript-eslint/parser": "8.11.0",
-    "eslint": "8.57.1",
+    "eslint": "9.13.0",
     "eslint-config-next": "15.0.1",
     "eslint-config-prettier": "9.1.0",
-    "eslint-import-resolver-typescript": "3.6.3",
-    "eslint-plugin-import": "2.31.0",
     "eslint-plugin-prettier": "5.2.1",
     "husky": "9.1.6",
     "lint-staged": "15.2.10",
