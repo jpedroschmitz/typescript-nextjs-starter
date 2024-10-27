@@ -27,10 +27,10 @@
 
 ## Features
 
-- ⚡️ Next.js 14 (App Router)
-- ⚛️ React 18
+- ⚡️ Next.js 15 (App Router)
+- ⚛️ React 19
 - ⛑ TypeScript
-- 📏 ESLint — To find and fix problems in your code
+- 📏 ESLint 9 — To find and fix problems in your code
 - 💖 Prettier — Code Formatter for consistent style
 - 🐶 Husky — For running scripts before committing
 - 🚓 Commitlint — To make sure your commit messages follow the convention
@@ -79,6 +79,8 @@ Open `http://localhost:3000` with your browser to see the result.
 List of websites that started off with Next.js TypeScript Starter:
 
 - [FreeInvoice.dev](https://freeinvoice.dev)
+- [Notion Avatar Maker](https://github.com/Mayandev/notion-avatar)
+- [IKEA Low Price](https://github.com/Mayandev/ikea-low-price)
 - [hygraph.com](https://hygraph.com)
 - [rocketseat.com.br](https://www.rocketseat.com.br)
 - [unfork.vercel.app](https://unfork.vercel.app)
