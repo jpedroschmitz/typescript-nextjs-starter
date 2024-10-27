@@ -17,6 +17,7 @@
     "type-check": "tsc --noEmit",
     "lint": "eslint \"src/**/*.+(ts|js|tsx)\"",
     "format": "prettier . --write",
+    "format:ci": "prettier --list-different .",
     "postinstall": "husky"
   },
   "lint-staged": {
