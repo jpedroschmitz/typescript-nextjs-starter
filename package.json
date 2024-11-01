@@ -27,7 +27,7 @@
     ]
   },
   "dependencies": {
-    "next": "15.0.1",
+    "next": "15.0.2",
     "react": "19.0.0-rc-69d4b800-20241021",
     "react-dom": "19.0.0-rc-69d4b800-20241021"
   },
@@ -43,7 +43,7 @@
     "@typescript-eslint/eslint-plugin": "8.12.1",
     "@typescript-eslint/parser": "8.12.1",
     "eslint": "9.13.0",
-    "eslint-config-next": "15.0.1",
+    "eslint-config-next": "15.0.2",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-prettier": "5.2.1",
     "husky": "9.1.6",
