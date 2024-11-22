@@ -32,8 +32,8 @@
     "react-dom": "19.0.0-rc-69d4b800-20241021"
   },
   "devDependencies": {
-    "@commitlint/cli": "19.5.0",
-    "@commitlint/config-conventional": "19.5.0",
+    "@commitlint/cli": "19.6.0",
+    "@commitlint/config-conventional": "19.6.0",
     "@eslint/eslintrc": "3.2.0",
     "@eslint/js": "9.15.0",
     "@ianvs/prettier-plugin-sort-imports": "4.4.0",
