@@ -31,5 +31,5 @@
     }
   },
   "exclude": ["node_modules"],
-  "include": [".eslintrc.cjs", "next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.cjs", "**/*.js", ".next/types/**/*.ts"]
+  "include": [".eslintrc.mjs", "next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.cjs", "**/*.js", ".next/types/**/*.ts"]
 }
