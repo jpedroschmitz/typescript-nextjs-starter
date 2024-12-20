@@ -1,5 +1,8 @@
 import type { NextConfig } from 'next';
 
+import './src/lib/env/client';
+import './src/lib/env/server';
+
 /**
  * CSPs that we're not adding (as it can change from project to project):
  * frame-src, connect-src, script-src, child-src, style-src, worker-src, font-src, media-src, and img-src
