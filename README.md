@@ -39,18 +39,19 @@
 - 👷 PR Workflow — Run Type Check & Linters on Pull Requests
 - ⚙️ EditorConfig - Consistent coding styles across editors and IDEs
 - 🗂 Path Mapping — Import components or images using the `@` prefix
+- 🔐 CSP — Content Security Policy for enhanced security (default minimal policy)
 
 ## Quick Start
 
 The best way to start with this template is using [Create Next App](https://nextjs.org/docs/api-reference/create-next-app).
 
 ```
+# pnpm
+pnpm create next-app -e https://github.com/jpedroschmitz/typescript-nextjs-starter
 # yarn
 yarn create next-app -e https://github.com/jpedroschmitz/typescript-nextjs-starter
 # npm
 npx create-next-app -e https://github.com/jpedroschmitz/typescript-nextjs-starter
-# pnpm
-pnpm create next-app -e https://github.com/jpedroschmitz/typescript-nextjs-starter
 ```
 
 ### Development
