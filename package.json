@@ -16,7 +16,9 @@
     "start": "next start",
     "type-check": "tsc --noEmit",
     "lint": "eslint \"src/**/*.+(ts|js|tsx)\"",
+    "lint:fix": "eslint \"src/**/*.+(ts|js|tsx)\" --fix",
     "format": "prettier . --write",
+    "format:check": "prettier . --check",
     "format:ci": "prettier --list-different .",
     "postinstall": "husky"
   },
@@ -27,7 +29,7 @@
     ]
   },
   "dependencies": {
-    "next": "15.1.0",
+    "next": "15.1.2",
     "react": "19.0.0",
     "react-dom": "19.0.0"
   },
@@ -38,12 +40,12 @@
     "@eslint/js": "9.17.0",
     "@ianvs/prettier-plugin-sort-imports": "4.4.0",
     "@types/node": "22.10.2",
-    "@types/react": "npm:types-react@19.0.0-rc.1",
-    "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1",
+    "@types/react": "19.0.2",
+    "@types/react-dom": "19.0.2",
     "@typescript-eslint/eslint-plugin": "8.18.1",
     "@typescript-eslint/parser": "8.18.1",
     "eslint": "9.17.0",
-    "eslint-config-next": "15.1.0",
+    "eslint-config-next": "15.1.2",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-prettier": "5.2.1",
     "husky": "9.1.7",
@@ -51,11 +53,5 @@
     "prettier": "3.4.2",
     "prettier-plugin-sort-json": "4.0.0",
     "typescript": "5.7.2"
-  },
-  "pnpm": {
-    "overrides": {
-      "@types/react": "npm:types-react@19.0.0-rc.1",
-      "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1"
-    }
   }
 }
