@@ -40,6 +40,7 @@
 - ⚙️ EditorConfig - Consistent coding styles across editors and IDEs
 - 🗂 Path Mapping — Import components or images using the `@` prefix
 - 🔐 CSP — Content Security Policy for enhanced security (default minimal policy)
+- 🧳 T3 Env — Type-safe environment variables
 
 ## Quick Start
 
@@ -126,6 +127,12 @@ import avatar from '@/public/avatar.png';
 This starter uses pnpm by default, but this choice is yours. If you'd like to switch to Yarn/npm, delete the `pnpm-lock.yaml` file, install the dependencies with Yarn/npm, change the CI workflow, and Husky Git hooks to use Yarn/npm commands.
 
 > **Note:** If you use Yarn, make sure to follow these steps from the [Husky documentation](https://typicode.github.io/husky/troubleshoot.html#yarn-on-windows) so that Git hooks do not fail with Yarn on Windows.
+
+### Environment Variables
+
+We use [T3 Env](https://env.t3.gg/) to manage environment variables. Create a `.env.local` file in the root of the project and add your environment variables there.
+
+When adding additional environment variables, the schema in `./src/lib/env/client.ts` or `./src/lib/env/server.ts` should be updated accordingly.
 
 ## License
 
