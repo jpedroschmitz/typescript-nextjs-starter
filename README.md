@@ -86,6 +86,7 @@ List of websites that started off with Next.js TypeScript Starter:
 - [IKEA Low Price](https://github.com/Mayandev/ikea-low-price)
 - [hygraph.com](https://hygraph.com)
 - [rocketseat.com.br](https://www.rocketseat.com.br)
+- [vagaschapeco.com](https://vagaschapeco.com)
 - [unfork.vercel.app](https://unfork.vercel.app)
 - [cryptools.dev](https://cryptools.dev)
 - [Add yours](https://github.com/jpedroschmitz/typescript-nextjs-starter/edit/main/README.md)
