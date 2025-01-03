@@ -4,14 +4,8 @@ on: [pull_request]
 
 jobs:
   run-ci:
-    env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
     name: Run Type Check & Linters
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      pull-requests: read
 
     steps:
       - name: Checkout repository
@@ -19,32 +13,29 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v4
+      - name: Install Deno
+        uses: denoland/setup-deno@v2
         with:
-          version: 9
-          run_install: false
+          deno-version: latest
 
-      - name: Set up Node
-        uses: actions/setup-node@v4
+      - name: Cache Deno dependencies
+        uses: actions/cache@v3
         with:
-          node-version: lts/*
+          path: ~/.cache/deno
+          key: ${{ runner.os }}-deno-${{ hashFiles('deno.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-deno-
 
-      - name: Setup pnpm config
-        shell: bash
-        run: pnpm config set store-dir ~/.pnpm-store
+      - name: Cache Deno CLI
+        uses: actions/cache@v3
+        with:
+          path: ~/.deno
+          key: deno-cli-${{ runner.os }}-${{ hashFiles('deno.json', 'deno.jsonc') }}
+          restore-keys: |
+            deno-cli-${{ runner.os }}-
 
-      - name: Install dependencies
-        run: pnpm install
+      - name: Check Types
+        run: deno check .
 
-      - name: Check types
-        run: pnpm type-check
-
-      - name: Check Prettier
-        run: pnpm format:ci
-
-      - name: Check linting
-        run: pnpm lint
-
-      - name: Check commits messages
-        uses: wagoid/commitlint-github-action@v6
+      - name: Run Linter
+        run: deno task format:check

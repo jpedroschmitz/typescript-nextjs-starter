@@ -1,26 +1,32 @@
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/26466516/141659551-d7ba5630-7200-46fe-863b-87818dae970a.png" alt="Next.js TypeScript Starter">
+    <img src="public/Boilerplate%20banner%20-%2001.jpg" alt="Next.js Boilerplate">
+</p>
+
+<p align="center">
+    <img src="public/Frameworks.svg" alt="Next.js Boilerplate">
 </p>
 
 <br />
 
-<div align="center"><strong>Non-opinionated TypeScript starter for Next.js</strong></div>
-<div align="center">Highly scalable foundation with the best DX. All the tools you need to build your next project.</div>
+<div align="center">
+    <div align="center"><strong>Non-opinionated TypeScript starter for Next.js</strong></div>
+    <div align="center">Highly scalable foundation with the best DX. All the tools you need to build your next project.</div>
+</div>
 
 <br />
 
 <div align="center">
   <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&style=flat-square&color=5e17eb&labelColor=000000" alt="PRs welcome!" />
 
-  <img alt="License" src="https://img.shields.io/github/license/jpedroschmitz/typescript-nextjs-starter?style=flat-square&color=5e17eb&labelColor=000000">
+  <img alt="License" src="https://img.shields.io/github/license/castrogusttavo/nextjs-boilerplate?style=flat-square&color=5e17eb&labelColor=000000">
 
-  <a href="https://x.com/intent/follow?screen_name=jpedroschmitz">
-    <img src="https://img.shields.io/twitter/follow/jpedroschmitz?style=flat-square&color=5e17eb&labelColor=000000" alt="Follow @jpedroschmitz" />
+  <a href="https://x.com/intent/follow?screen_name=gustta_dev">
+    <img src="https://img.shields.io/twitter/follow/gustta_dev?style=flat-square&color=5e17eb&labelColor=000000" alt="Follow @gustta_dev" />
   </a>
 </div>
 
 <div align="center">
-  <sub>Created by <a href="https://x.com/jpedroschmitz">João Pedro</a> with the help of many <a href="https://github.com/jpedroschmitz/typescript-nextjs-starter/graphs/contributors">wonderful contributors</a>.</sub>
+  <sub>Created by <a href="https://x.com/gustta_dev">Gusttavo Castro</a> with the help of many <a href="https://github.com/castrogusttavo/next-boilerplate/graphs/contributors">wonderful contributors</a>.</sub>
 </div>
 
 <br />
@@ -30,14 +36,11 @@
 - ⚡️ Next.js 15 (App Router)
 - ⚛️ React 19
 - ⛑ TypeScript
-- 📏 ESLint 9 — To find and fix problems in your code
-- 💖 Prettier — Code Formatter for consistent style
+- 📏 Biome — To find and fix problems in your code
 - 🐶 Husky — For running scripts before committing
 - 🚓 Commitlint — To make sure your commit messages follow the convention
 - 🖌 Renovate — To keep your dependencies up to date
-- 🚫 lint-staged — Run ESLint and Prettier against staged Git files
 - 👷 PR Workflow — Run Type Check & Linters on Pull Requests
-- ⚙️ EditorConfig - Consistent coding styles across editors and IDEs
 - 🗂 Path Mapping — Import components or images using the `@` prefix
 - 🔐 CSP — Content Security Policy for enhanced security (default minimal policy)
 - 🧳 T3 Env — Type-safe environment variables
@@ -49,11 +52,13 @@ The best way to start with this template is using [Create Next App](https://next
 
 ```
 # pnpm
-pnpm create next-app -e https://github.com/jpedroschmitz/typescript-nextjs-starter
+pnpm create next-app -e https://github.com/castrogusttavo/nextjs-boilerplate
+
 # yarn
-yarn create next-app -e https://github.com/jpedroschmitz/typescript-nextjs-starter
+yarn create next-app -e https://github.com/castrogusttavo/nextjs-boilerplate
+
 # npm
-npx create-next-app -e https://github.com/jpedroschmitz/typescript-nextjs-starter
+npx create-next-app -e https://github.com/castrogusttavo/nextjs-boilerplate
 ```
 
 ### Development
@@ -66,78 +71,49 @@ pnpm dev
 
 Open `http://localhost:3000` with your browser to see the result.
 
-## Testimonials
-
-> [**“This starter is by far the best TypeScript starter for Next.js. Feature packed but un-opinionated at the same time!”**](https://github.com/jpedroschmitz/typescript-nextjs-starter/issues/87#issue-789642190)<br>
-> — Arafat Zahan
-
-> [**“I can really recommend the Next.js Typescript Starter repo as a solid foundation for your future Next.js projects.”**](https://corfitz.medium.com/create-a-custom-create-next-project-command-2a6b35a1c8e6)<br>
-> — Corfitz
-
-> [**“Brilliant work!”**](https://github.com/jpedroschmitz/typescript-nextjs-starter/issues/87#issuecomment-769314539)<br>
-> — Soham Dasgupta
-
-## Showcase
-
-List of websites that started off with Next.js TypeScript Starter:
-
-- [FreeInvoice.dev](https://freeinvoice.dev)
-- [Notion Avatar Maker](https://github.com/Mayandev/notion-avatar)
-- [IKEA Low Price](https://github.com/Mayandev/ikea-low-price)
-- [hygraph.com](https://hygraph.com)
-- [rocketseat.com.br](https://www.rocketseat.com.br)
-- [vagaschapeco.com](https://vagaschapeco.com)
-- [unfork.vercel.app](https://unfork.vercel.app)
-- [cryptools.dev](https://cryptools.dev)
-- [Add yours](https://github.com/jpedroschmitz/typescript-nextjs-starter/edit/main/README.md)
-
 ## Documentation
 
 ### Requirements
 
-- Node.js >= 20
-- pnpm 9
+- [Node.js >= 20](https://nodejs.org/)
+- [pnpm >= 9](https://pnpm.io/)
 
 ### Directory Structure
 
-- [`.github`](.github) — GitHub configuration including the CI workflow.<br>
-- [`.husky`](.husky) — Husky configuration and hooks.<br>
-- [`public`](./public) — Static assets such as robots.txt, images, and favicon.<br>
-- [`src`](./src) — Application source code, including pages, components, styles.
+- [`.github`](.github) - GitHub configuration including the CI workflows.<br>
+- [`.husky`](.husky) - Husky configuration and hooks.<br>
+- [`public`](./public) - Static assets such as robots.txt, images, and favicon.<br>
+- [`app`](./app) - Application source code.<br>
 
-### Scripts
+### Tasks (Scripts)
 
 - `pnpm dev` — Starts the application in development mode at `http://localhost:3000`.
 - `pnpm build` — Creates an optimized production build of your application.
 - `pnpm start` — Starts the application in production mode.
-- `pnpm type-check` — Validate code using TypeScript compiler.
-- `pnpm lint` — Runs ESLint for all files in the `src` directory.
-- `pnpm lint:fix` — Runs ESLint fix for all files in the `src` directory.
-- `pnpm format` — Runs Prettier for all files in the `src` directory.
-- `pnpm format:check` — Check Prettier list of files that need to be formatted.
-- `pnpm format:ci` — Prettier check for CI.
+- `pnpm lint` — Runs Biome for all files in the `app` directory.
+- `pnpm format` — Runs Biome for fix all files in the `app` directory .
+- `pnpm format:check` — Checks all files in the `app` directory for correct formatting.
 
 ### Path Mapping
 
-TypeScript are pre-configured with custom path mappings. To import components or files, use the `@` prefix.
+This boilerplate uses the `@` prefix to import components or images. This is configured in the `tsconfig.json` file.
 
 ```tsx
 import { Button } from '@/components/Button';
 // To import images or other files from the public folder
 import avatar from '@/public/avatar.png';
 ```
-
 ### Switch to Yarn/npm
 
-This starter uses pnpm by default, but this choice is yours. If you'd like to switch to Yarn/npm, delete the `pnpm-lock.yaml` file, install the dependencies with Yarn/npm, change the CI workflow, and Husky Git hooks to use Yarn/npm commands.
+This starter uses Deno by default, but this choice is yours. If you'd like to switch to Yarn/npm, delete the deno.lock file, install the dependencies with Yarn/npm, change the CI workflow, and Husky Git hooks to use Yarn/npm commands.
 
 > **Note:** If you use Yarn, make sure to follow these steps from the [Husky documentation](https://typicode.github.io/husky/troubleshoot.html#yarn-on-windows) so that Git hooks do not fail with Yarn on Windows.
 
 ### Environment Variables
 
-We use [T3 Env](https://env.t3.gg/) to manage environment variables. Create a `.env.local` file in the root of the project and add your environment variables there.
+We use [Dot Env](https://www.npmjs.com/package/dotenv) to manage environment variables. Create a `.env.local` file in the root of the project and add your environment variables there.
 
-When adding additional environment variables, the schema in `./src/lib/env/client.ts` or `./src/lib/env/server.ts` should be updated accordingly.
+When adding additional environment variables, the schema in `./app/lib/env/client.ts` or `./app/lib/env/server.ts` should be updated accordingly.
 
 ### Redirects
 

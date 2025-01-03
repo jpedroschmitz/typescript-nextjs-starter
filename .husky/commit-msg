@@ -1,1 +1,1 @@
-pnpm commitlint --edit $1
+deno task --eval commitlint --edit $1
