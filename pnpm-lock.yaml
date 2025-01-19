@@ -43,11 +43,11 @@ importers:
         specifier: 22.10.7
         version: 22.10.7
       '@types/react':
-        specifier: 19.0.5
-        version: 19.0.5
+        specifier: 19.0.7
+        version: 19.0.7
       '@types/react-dom':
         specifier: 19.0.3
-        version: 19.0.3(@types/react@19.0.5)
+        version: 19.0.3(@types/react@19.0.7)
       '@typescript-eslint/eslint-plugin':
         specifier: 8.20.0
         version: 8.20.0(@typescript-eslint/parser@8.20.0(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3))(eslint@9.18.0(jiti@2.4.2))(typescript@5.7.3)
@@ -503,8 +503,8 @@ packages:
     peerDependencies:
       '@types/react': ^19.0.0
 
-  '@types/react@19.0.5':
-    resolution: {integrity: sha512-i4OQzFiqsUCfoBns/KHpz+4QcvfjoCsTUi+mugo3lrSRA3+x0gJVvhZhAJrwLGEqz4EXiFVP4hPnOugx+m2uhg==}
+  '@types/react@19.0.7':
+    resolution: {integrity: sha512-MoFsEJKkAtZCrC1r6CM8U22GzhG7u2Wir8ons/aCKH6MBdD1ibV24zOSSkdZVUKqN5i396zG5VKLYZ3yaUZdLA==}
 
   '@typescript-eslint/eslint-plugin@8.20.0':
     resolution: {integrity: sha512-naduuphVw5StFfqp4Gq4WhIBE2gN1GEmMUExpJYknZJdRnc+2gDzB8Z3+5+/Kv33hPQRDGzQO/0opHE72lZZ6A==}
@@ -2420,11 +2420,11 @@ snapshots:
     dependencies:
       undici-types: 6.20.0
 
-  '@types/react-dom@19.0.3(@types/react@19.0.5)':
+  '@types/react-dom@19.0.3(@types/react@19.0.7)':
     dependencies:
-      '@types/react': 19.0.5
+      '@types/react': 19.0.7
 
-  '@types/react@19.0.5':
+  '@types/react@19.0.7':
     dependencies:
       csstype: 3.1.2
 
