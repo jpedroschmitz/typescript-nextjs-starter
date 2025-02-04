@@ -1,13 +1,13 @@
 {
-  "extends": ["config:base"],
+  "extends": ["config:recommended"],
   "labels": ["type: dependencies"],
   "packageRules": [
     {
-      "packageNames": ["node"],
+      "matchPackageNames": ["node"],
       "enabled": false
     }
   ],
   "prCreation": "not-pending",
-  "semanticCommits": true,
-  "stabilityDays": 3
+  "semanticCommits": "enabled",
+  "minimumReleaseAge": "3 days"
 }
