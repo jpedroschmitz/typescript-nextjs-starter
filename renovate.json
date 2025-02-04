@@ -1,6 +1,7 @@
 {
   "extends": ["config:recommended"],
   "labels": ["type: dependencies"],
+  "minimumReleaseAge": "3 days",
   "packageRules": [
     {
       "matchPackageNames": ["node"],
@@ -8,6 +9,5 @@
     }
   ],
   "prCreation": "not-pending",
-  "semanticCommits": "enabled",
-  "minimumReleaseAge": "3 days"
+  "semanticCommits": "enabled"
 }
