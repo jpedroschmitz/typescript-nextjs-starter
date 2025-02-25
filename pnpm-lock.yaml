@@ -38,7 +38,7 @@ importers:
         version: 9.21.0
       '@ianvs/prettier-plugin-sort-imports':
         specifier: 4.4.1
-        version: 4.4.1(prettier@3.4.2)
+        version: 4.4.1(prettier@3.5.2)
       '@types/node':
         specifier: 22.13.5
         version: 22.13.5
@@ -65,7 +65,7 @@ importers:
         version: 10.0.1(eslint@9.21.0(jiti@2.4.2))
       eslint-plugin-prettier:
         specifier: 5.2.3
-        version: 5.2.3(eslint-config-prettier@10.0.1(eslint@9.21.0(jiti@2.4.2)))(eslint@9.21.0(jiti@2.4.2))(prettier@3.4.2)
+        version: 5.2.3(eslint-config-prettier@10.0.1(eslint@9.21.0(jiti@2.4.2)))(eslint@9.21.0(jiti@2.4.2))(prettier@3.5.2)
       husky:
         specifier: 9.1.7
         version: 9.1.7
@@ -73,11 +73,11 @@ importers:
         specifier: 15.4.3
         version: 15.4.3
       prettier:
-        specifier: 3.4.2
-        version: 3.4.2
+        specifier: 3.5.2
+        version: 3.5.2
       prettier-plugin-sort-json:
         specifier: 4.1.1
-        version: 4.1.1(prettier@3.4.2)
+        version: 4.1.1(prettier@3.5.2)
       typescript:
         specifier: 5.7.3
         version: 5.7.3
@@ -1676,8 +1676,8 @@ packages:
     peerDependencies:
       prettier: ^3.0.0
 
-  prettier@3.4.2:
-    resolution: {integrity: sha512-e9MewbtFo+Fevyuxn/4rrcDAaq0IYxPGLvObpQjiZBMAzB9IGmzlnG9RZy3FFas+eBMu2vA0CszMeduow5dIuQ==}
+  prettier@3.5.2:
+    resolution: {integrity: sha512-lc6npv5PH7hVqozBR7lkBNOGXV9vMwROAPlumdBkX0wTbbzPu/U1hk5yL8p2pt4Xoc+2mkT8t/sow2YrV/M5qg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -2258,13 +2258,13 @@ snapshots:
 
   '@humanwhocodes/retry@0.4.2': {}
 
-  '@ianvs/prettier-plugin-sort-imports@4.4.1(prettier@3.4.2)':
+  '@ianvs/prettier-plugin-sort-imports@4.4.1(prettier@3.5.2)':
     dependencies:
       '@babel/generator': 7.26.2
       '@babel/parser': 7.26.2
       '@babel/traverse': 7.25.9
       '@babel/types': 7.26.0
-      prettier: 3.4.2
+      prettier: 3.5.2
       semver: 7.6.3
     transitivePeerDependencies:
       - supports-color
@@ -3055,10 +3055,10 @@ snapshots:
       safe-regex-test: 1.0.3
       string.prototype.includes: 2.0.1
 
-  eslint-plugin-prettier@5.2.3(eslint-config-prettier@10.0.1(eslint@9.21.0(jiti@2.4.2)))(eslint@9.21.0(jiti@2.4.2))(prettier@3.4.2):
+  eslint-plugin-prettier@5.2.3(eslint-config-prettier@10.0.1(eslint@9.21.0(jiti@2.4.2)))(eslint@9.21.0(jiti@2.4.2))(prettier@3.5.2):
     dependencies:
       eslint: 9.21.0(jiti@2.4.2)
-      prettier: 3.4.2
+      prettier: 3.5.2
       prettier-linter-helpers: 1.0.0
       synckit: 0.9.1
     optionalDependencies:
@@ -3758,11 +3758,11 @@ snapshots:
     dependencies:
       fast-diff: 1.2.0
 
-  prettier-plugin-sort-json@4.1.1(prettier@3.4.2):
+  prettier-plugin-sort-json@4.1.1(prettier@3.5.2):
     dependencies:
-      prettier: 3.4.2
+      prettier: 3.5.2
 
-  prettier@3.4.2: {}
+  prettier@3.5.2: {}
 
   prop-types@15.8.1:
     dependencies:
