@@ -30,7 +30,7 @@
 - ⚡️ Next.js 15 (App Router)
 - ⚛️ React 19
 - ⛑ TypeScript
-- ⚡️ Cursor Rules — Cursor rules for an improved AI coding experience
+- 🆕 Cursor Rules — Cursor rules for an improved AI coding experience
 - 📏 ESLint 9 — To find and fix problems in your code
 - 💖 Prettier — Code Formatter for consistent style
 - 🐶 Husky — For running scripts before committing
@@ -154,7 +154,7 @@ It contains a default and minimal policy that you can customize to fit your appl
 
 This is the most opinionated part of the project, and it's just a starting point. We have cursor rules that will help you write code faster and more efficiently. If you don't use Cursor, feel free to delete the `.cursor` folder.
 
-Regarding the rules, these are rules that I use as a foundation, and you can customize them as you want, and according to your project needs, or developer preferences. If you want some inspiration, check out the [Cursor Directory](https://cursor.directory).
+Regarding the rules, these are the foundation, and you can customize them as you want according to your project needs or developer preferences. If you want some inspiration, check out the [Cursor Directory](https://cursor.directory/).
 
 ## License
 
