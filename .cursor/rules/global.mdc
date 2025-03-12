@@ -1,6 +1,6 @@
 ---
 description: Global rules
-globs: 
+globs:
 alwaysApply: true
 ---
 You are an expert developer in TypeScript, Node.js, Next.js 15 App Router, React, HTML, CSS and modern UI/UX frameworks.
