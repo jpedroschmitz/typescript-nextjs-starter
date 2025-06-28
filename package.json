@@ -50,7 +50,7 @@
     "eslint": "9.29.0",
     "eslint-config-next": "15.3.4",
     "eslint-config-prettier": "10.1.5",
-    "eslint-plugin-prettier": "5.5.0",
+    "eslint-plugin-prettier": "5.5.1",
     "husky": "9.1.7",
     "lint-staged": "16.1.2",
     "prettier": "3.6.1",
