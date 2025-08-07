@@ -1,1 +1,14 @@
-pnpm lint-staged
+# To enable Husky pre-commit, run:
+# echo 'HUSKY_ENABLED=true' > .husky/_/pre-commit.options
+
+APP_PRE_COMMIT_OPTIONS="$(dirname "$0")/_/pre-commit.options"
+
+# Only source the options file if it exists
+if [ -f "$APP_PRE_COMMIT_OPTIONS" ]; then
+  source $APP_PRE_COMMIT_OPTIONS
+fi
+
+if [ -n "${HUSKY_ENABLED}" ] && [ "${HUSKY_ENABLED}" == "true" ]; then
+  echo "[husky] [pre-commit] [HUSKY_ENABLED]"
+  pnpm lint-staged
+fi
