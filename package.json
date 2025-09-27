@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "@t3-oss/env-nextjs": "0.13.8",
-    "next": "15.5.3",
+    "next": "15.5.4",
     "react": "19.1.1",
     "react-dom": "19.1.1",
     "zod": "4.1.11"
@@ -48,7 +48,7 @@
     "@typescript-eslint/eslint-plugin": "8.44.1",
     "@typescript-eslint/parser": "8.44.1",
     "eslint": "9.36.0",
-    "eslint-config-next": "15.5.3",
+    "eslint-config-next": "15.5.4",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-prettier": "5.5.4",
     "husky": "9.1.7",
