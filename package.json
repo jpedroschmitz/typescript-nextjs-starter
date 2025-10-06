@@ -32,8 +32,8 @@
   "dependencies": {
     "@t3-oss/env-nextjs": "0.13.8",
     "next": "15.5.4",
-    "react": "19.1.1",
-    "react-dom": "19.1.1",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
     "zod": "4.1.11"
   },
   "devDependencies": {
@@ -43,8 +43,8 @@
     "@eslint/js": "9.36.0",
     "@ianvs/prettier-plugin-sort-imports": "4.7.0",
     "@types/node": "22.18.8",
-    "@types/react": "19.1.16",
-    "@types/react-dom": "19.1.9",
+    "@types/react": "19.2.0",
+    "@types/react-dom": "19.2.0",
     "@typescript-eslint/eslint-plugin": "8.45.0",
     "@typescript-eslint/parser": "8.45.0",
     "eslint": "9.36.0",
