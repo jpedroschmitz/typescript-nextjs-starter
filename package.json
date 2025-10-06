@@ -55,6 +55,6 @@
     "lint-staged": "16.2.3",
     "prettier": "3.6.2",
     "prettier-plugin-sort-json": "4.1.1",
-    "typescript": "5.9.2"
+    "typescript": "5.9.3"
   }
 }
