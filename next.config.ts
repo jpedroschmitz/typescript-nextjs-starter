@@ -62,7 +62,11 @@ const nextConfig: NextConfig = {
   async redirects() {
     return redirects;
   },
+  experimental: {
+    turbopackFileSystemCacheForDev: true,
+  },
   reactStrictMode: true,
+  reactCompiler: true,
 };
 
 export default nextConfig;
