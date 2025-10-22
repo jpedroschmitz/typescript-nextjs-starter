@@ -5,7 +5,7 @@
 <br />
 
 <div align="center"><strong>Non-opinionated TypeScript starter for Next.js</strong></div>
-<div align="center">Highly scalable foundation with the best DX. All the tools you need to build your next project.</div>
+<div align="center">Highly scalable foundation with the best DX. All the tools you need to build your Next project.</div>
 
 <br />
 
@@ -27,7 +27,7 @@
 
 ## Features
 
-- ⚡️ Next.js 15 (App Router)
+- ⚡️ Next.js 16 (App Router)
 - ⚛️ React 19
 - ⛑ TypeScript
 - 📏 ESLint 9 — To find and fix problems in your code
@@ -88,15 +88,14 @@ List of websites that started off with Next.js TypeScript Starter:
 - [rocketseat.com.br](https://www.rocketseat.com.br)
 - [vagaschapeco.com](https://vagaschapeco.com)
 - [unfork.vercel.app](https://unfork.vercel.app)
-- [cryptools.dev](https://cryptools.dev)
 - [Add yours](https://github.com/jpedroschmitz/typescript-nextjs-starter/edit/main/README.md)
 
 ## Documentation
 
 ### Requirements
 
-- Node.js >= 20
-- pnpm 9
+- Node.js >= 24
+- pnpm 10
 
 ### Directory Structure
 
@@ -148,6 +147,16 @@ To add redirects, update the `redirects` array in `./redirects.ts`. It's typed, 
 The Content Security Policy (CSP) is a security layer that helps to detect and mitigate certain types of attacks, including Cross-Site Scripting (XSS) and data injection attacks. The CSP is implemented in the `next.config.ts` file.
 
 It contains a default and minimal policy that you can customize to fit your application needs. It's a foundation to build upon.
+
+### Husky
+
+Husky is a tool that helps us run scrips before Git events. We have 3 hooks:
+
+- `pre-commit` — (Disabled by default) Runs lint-staged to lint and format the files.
+- `commit-msg` — Runs commitlint to check if the commit message follows the conventional commit message format.
+- `post-merge` — Runs pnpm install to update the dependencies if there was a change in the `pnpm-lock.yaml` file.
+
+> Important note: Husky is disabled by default in the pre-commit hook. This is intention because most developers don't want to run lint-staged on every commit. If you want to enable it, run `echo 'HUSKY_ENABLED=true' > .husky/_/pre-commit.options`.
 
 ## License
 
