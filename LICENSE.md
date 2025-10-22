@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2024 João Pedro Schmitz
+Copyright (c) 2025 João Pedro Schmitz
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
