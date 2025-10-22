@@ -27,7 +27,7 @@
 
 ## Features
 
-- ⚡️ Next.js 15 (App Router)
+- ⚡️ Next.js 16 (App Router)
 - ⚛️ React 19
 - ⛑ TypeScript
 - 📏 ESLint 9 — To find and fix problems in your code
