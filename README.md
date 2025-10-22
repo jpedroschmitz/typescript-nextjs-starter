@@ -149,6 +149,16 @@ The Content Security Policy (CSP) is a security layer that helps to detect and m
 
 It contains a default and minimal policy that you can customize to fit your application needs. It's a foundation to build upon.
 
+### Husky
+
+Husky is a tool that helps us run scrips before Git events. We have 3 hooks:
+
+- `pre-commit` — (Disabled by default) Runs lint-staged to lint and format the files.
+- `commit-msg` — Runs commitlint to check if the commit message follows the conventional commit message format.
+- `post-merge` — Runs pnpm install to update the dependencies if there was a change in the `pnpm-lock.yaml` file.
+
+> Important note: Husky is disabled by default in the pre-commit hook. This is intention because most developers don't want to run lint-staged on every commit. If you want to enable it, run `echo 'HUSKY_ENABLED=true' > .husky/_/pre-commit.options`.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for more information.
