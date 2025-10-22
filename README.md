@@ -95,8 +95,8 @@ List of websites that started off with Next.js TypeScript Starter:
 
 ### Requirements
 
-- Node.js >= 20
-- pnpm 9
+- Node.js >= 24
+- pnpm 10
 
 ### Directory Structure
 
