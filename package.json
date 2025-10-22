@@ -32,7 +32,7 @@
   "dependencies": {
     "@t3-oss/env-nextjs": "0.13.8",
     "babel-plugin-react-compiler": "1.0.0",
-    "next": "16.0.0-beta.0",
+    "next": "16.0.0-canary.14",
     "react": "19.2.0",
     "react-dom": "19.2.0",
     "zod": "4.1.12"
@@ -49,7 +49,7 @@
     "@typescript-eslint/eslint-plugin": "8.46.1",
     "@typescript-eslint/parser": "8.46.1",
     "eslint": "9.37.0",
-    "eslint-config-next": "16.0.0-beta.0",
+    "eslint-config-next": "16.0.0-canary.14",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-prettier": "5.5.4",
     "husky": "9.1.7",
