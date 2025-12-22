@@ -12,7 +12,7 @@ export default function Home() {
           <p>Highly scalable foundation with the best DX. All the tools you need to build your Next project.</p>
         </div>
         <div className={styles.ctas}>
-          <a className={styles.primary} href="https://joaopedro.dev" target="_blank">
+          <a className={styles.primary} href="https://joaopedro.dev" target="_blank" rel="noreferrer">
             Created by João Pedro
           </a>
         </div>
