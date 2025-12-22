@@ -63,7 +63,8 @@ const nextConfig: NextConfig = {
     return redirects;
   },
   experimental: {
-    turbopackFileSystemCacheForDev: true,
+    // Enable caching for next build. FileSystem caching is enabled by default for development
+    turbopackFileSystemCacheForBuild: true,
   },
   reactStrictMode: true,
   reactCompiler: true,
