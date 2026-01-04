@@ -14,7 +14,7 @@ importers:
     dependencies:
       '@t3-oss/env-nextjs':
         specifier: 0.13.10
-        version: 0.13.10(arktype@2.1.20)(typescript@5.9.3)(zod@4.3.3)
+        version: 0.13.10(arktype@2.1.20)(typescript@5.9.3)(zod@4.3.4)
       babel-plugin-react-compiler:
         specifier: 1.0.0
         version: 1.0.0
@@ -28,8 +28,8 @@ importers:
         specifier: 19.2.3
         version: 19.2.3(react@19.2.3)
       zod:
-        specifier: 4.3.3
-        version: 4.3.3
+        specifier: 4.3.4
+        version: 4.3.4
     devDependencies:
       '@commitlint/cli':
         specifier: 20.2.0
@@ -2243,8 +2243,8 @@ packages:
     peerDependencies:
       zod: ^3.25.0 || ^4.0.0
 
-  zod@4.3.3:
-    resolution: {integrity: sha512-bQ7Rxwfn04DCrTjjRfD9SavY2vWdmf3REjs/mkc1LdwI1KkcHClBRJmnvmA/6epGeqlHePtIRF1J4SrMMlW7IA==}
+  zod@4.3.4:
+    resolution: {integrity: sha512-Zw/uYiiyF6pUT1qmKbZziChgNPRu+ZRneAsMUDU6IwmXdWt5JwcUfy2bvLOCUtz5UniaN/Zx5aFttZYbYc7O/A==}
 
 snapshots:
 
@@ -2709,19 +2709,19 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@t3-oss/env-core@0.13.10(arktype@2.1.20)(typescript@5.9.3)(zod@4.3.3)':
+  '@t3-oss/env-core@0.13.10(arktype@2.1.20)(typescript@5.9.3)(zod@4.3.4)':
     optionalDependencies:
       arktype: 2.1.20
       typescript: 5.9.3
-      zod: 4.3.3
+      zod: 4.3.4
 
-  '@t3-oss/env-nextjs@0.13.10(arktype@2.1.20)(typescript@5.9.3)(zod@4.3.3)':
+  '@t3-oss/env-nextjs@0.13.10(arktype@2.1.20)(typescript@5.9.3)(zod@4.3.4)':
     dependencies:
-      '@t3-oss/env-core': 0.13.10(arktype@2.1.20)(typescript@5.9.3)(zod@4.3.3)
+      '@t3-oss/env-core': 0.13.10(arktype@2.1.20)(typescript@5.9.3)(zod@4.3.4)
     optionalDependencies:
       arktype: 2.1.20
       typescript: 5.9.3
-      zod: 4.3.3
+      zod: 4.3.4
 
   '@tybys/wasm-util@0.10.1':
     dependencies:
@@ -3505,8 +3505,8 @@ snapshots:
       '@babel/parser': 7.28.4
       eslint: 9.39.2(jiti@2.4.2)
       hermes-parser: 0.25.1
-      zod: 4.3.3
-      zod-validation-error: 4.0.2(zod@4.3.3)
+      zod: 4.3.4
+      zod-validation-error: 4.0.2(zod@4.3.4)
     transitivePeerDependencies:
       - supports-color
 
@@ -4703,8 +4703,8 @@ snapshots:
 
   yocto-queue@1.0.0: {}
 
-  zod-validation-error@4.0.2(zod@4.3.3):
+  zod-validation-error@4.0.2(zod@4.3.4):
     dependencies:
-      zod: 4.3.3
+      zod: 4.3.4
 
-  zod@4.3.3: {}
+  zod@4.3.4: {}
