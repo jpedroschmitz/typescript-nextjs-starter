@@ -1,8 +1,7 @@
 import js from '@eslint/js';
 import pluginNext from '@next/eslint-plugin-next';
+import eslintConfigPrettier from 'eslint-config-prettier';
 import { importX } from 'eslint-plugin-import-x';
-import prettierRecommended from 'eslint-plugin-prettier/recommended';
-import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
 import pluginReact from 'eslint-plugin-react';
 import pluginReactHooks from 'eslint-plugin-react-hooks';
 import { defineConfig, globalIgnores } from 'eslint/config';
@@ -17,14 +16,6 @@ export default defineConfig([
   {
     rules: {
       camelcase: 'off',
-    },
-  },
-
-  // Prettier
-  prettierRecommended,
-  {
-    rules: {
-      'prettier/prettier': 'error',
     },
   },
 
@@ -157,8 +148,8 @@ export default defineConfig([
   // React Hooks
   pluginReactHooks.configs.flat.recommended,
 
-  // Prettier needs to be last
-  eslintPluginPrettierRecommended,
+  // Prettier config to disable conflicting rules (must be last)
+  eslintConfigPrettier,
 
   // Ignore files
   globalIgnores(['.next/**', 'out/**', 'build/**', 'next-env.d.ts']),

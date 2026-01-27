@@ -1,16 +1,16 @@
 {
   "name": "typescript-nextjs-starter",
-  "description": "A TypeScript starter for Next.js that includes all you need to build amazing projects",
   "version": "1.0.0",
   "private": true,
-  "type": "module",
-  "author": "João Pedro Schmitz (@jpedroschmitz)",
-  "license": "MIT",
+  "description": "A TypeScript starter for Next.js that includes all you need to build amazing projects",
   "keywords": [
     "nextjs",
     "starter",
     "typescript"
   ],
+  "license": "MIT",
+  "author": "João Pedro Schmitz (@jpedroschmitz)",
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -19,9 +19,9 @@
     "build:analyze": "next build && next experimental-analyze",
     "lint": "eslint \"src/**/*.+(ts|js|tsx)\"",
     "lint:fix": "eslint \"src/**/*.+(ts|js|tsx)\" --fix",
-    "format": "prettier . --write",
-    "format:check": "prettier . --check",
-    "format:ci": "prettier --list-different .",
+    "format": "oxfmt --write",
+    "format:check": "oxfmt --check",
+    "format:ci": "oxfmt --list-different .",
     "postinstall": "husky"
   },
   "dependencies": {
@@ -44,13 +44,12 @@
     "eslint-config-prettier": "10.1.8",
     "eslint-import-resolver-typescript": "4.4.4",
     "eslint-plugin-import-x": "4.16.1",
-    "eslint-plugin-prettier": "5.5.5",
     "eslint-plugin-react": "7.37.5",
     "eslint-plugin-react-hooks": "7.0.1",
     "globals": "17.1.0",
     "husky": "9.1.7",
     "lint-staged": "16.2.7",
-    "prettier": "3.8.1",
+    "oxfmt": "0.27.0",
     "typescript": "5.9.3",
     "typescript-eslint": "8.53.1"
   },

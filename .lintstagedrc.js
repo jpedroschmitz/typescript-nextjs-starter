@@ -4,5 +4,5 @@ const buildEslintCommand = (filenames) =>
   `eslint --fix ${filenames.map((f) => `"${path.relative(process.cwd(), f)}"`).join(' ')}`;
 
 export default {
-  '*.{js,jsx,ts,tsx}': [buildEslintCommand, 'prettier --write'],
+  '*.{js,jsx,ts,tsx}': [buildEslintCommand, 'oxfmt --write --no-error-on-unmatched-pattern'],
 };
