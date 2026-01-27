@@ -1,0 +1,32 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "printWidth": 120,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "experimentalSortImports": {},
+  "experimentalTailwindcss": {
+    "functions": ["clsx", "cn", "cva", "tw"]
+  },
+  "ignorePatterns": [
+    "/node_modules",
+    "/.pnp",
+    ".pnp.js",
+    ".idea/",
+    "/coverage",
+    "/.next/",
+    "/out/",
+    "/build",
+    ".DS_Store",
+    "*.pem",
+    "pnpm-lock.yaml",
+    "npm-debug.log*",
+    "yarn-debug.log*",
+    "yarn-error.log*",
+    ".pnpm-debug.log*",
+    ".env*.local",
+    ".vercel",
+    "*.tsbuildinfo",
+    "next-env.d.ts"
+  ]
+}

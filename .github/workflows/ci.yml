@@ -40,7 +40,7 @@ jobs:
       - name: Check types
         run: pnpm type-check
 
-      - name: Check Prettier
+      - name: Check Oxfmt
         run: pnpm format:ci
 
       - name: Check linting
