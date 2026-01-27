@@ -17,8 +17,8 @@
     "start": "next start",
     "type-check": "next typegen && tsc --noEmit",
     "build:analyze": "next build && next experimental-analyze",
-    "lint": "eslint \"src/**/*.+(ts|js|tsx)\"",
-    "lint:fix": "eslint \"src/**/*.+(ts|js|tsx)\" --fix",
+    "lint": "oxlint --type-aware",
+    "lint:fix": "oxlint --fix --type-aware",
     "format": "oxfmt --write",
     "format:check": "oxfmt --check",
     "format:ci": "oxfmt --list-different .",
@@ -35,23 +35,21 @@
   "devDependencies": {
     "@commitlint/cli": "20.3.1",
     "@commitlint/config-conventional": "20.3.1",
-    "@eslint/js": "9.39.2",
-    "@next/eslint-plugin-next": "16.1.4",
     "@types/node": "25.0.10",
     "@types/react": "19.2.9",
     "@types/react-dom": "19.2.3",
-    "eslint": "9.39.2",
-    "eslint-config-prettier": "10.1.8",
-    "eslint-import-resolver-typescript": "4.4.4",
-    "eslint-plugin-import-x": "4.16.1",
-    "eslint-plugin-react": "7.37.5",
-    "eslint-plugin-react-hooks": "7.0.1",
-    "globals": "17.1.0",
     "husky": "9.1.7",
     "lint-staged": "16.2.7",
     "oxfmt": "0.27.0",
-    "typescript": "5.9.3",
-    "typescript-eslint": "8.53.1"
+    "oxlint": "1.42.0",
+    "oxlint-tsgolint": "0.11.2",
+    "typescript": "5.9.3"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,mjs,cjs}": [
+      "oxlint --fix",
+      "oxfmt --write --no-error-on-unmatched-pattern"
+    ]
   },
   "pnpm": {
     "overrides": {

@@ -30,12 +30,12 @@
 - ⚡️ Next.js 16 (App Router)
 - ⚛️ React 19
 - ⛑ TypeScript
-- 📏 ESLint 9 — To find and fix problems in your code
+- 📏 Oxlint — To find and fix problems in your code
 - 💖 Oxfmt — High-performance formatter for consistent style
 - 🐶 Husky — For running scripts before committing
 - 🚓 Commitlint — To make sure your commit messages follow the convention
 - 🖌 Renovate — To keep your dependencies up to date
-- 🚫 lint-staged — Run ESLint and Oxfmt against staged Git files
+- 🚫 lint-staged — Run Oxlint and Oxfmt against staged Git files
 - 👷 PR Workflow — Run Type Check & Linters on Pull Requests
 - ⚙️ EditorConfig - Consistent coding styles across editors and IDEs
 - 🗂 Path Mapping — Import components or images using the `@` prefix
@@ -111,8 +111,8 @@ List of websites that started off with Next.js TypeScript Starter:
 - `pnpm build:analyze` — Analyze the production build to see the bundle size.
 - `pnpm start` — Starts the application in production mode.
 - `pnpm type-check` — Validate code using TypeScript compiler.
-- `pnpm lint` — Runs ESLint for all files in the `src` directory.
-- `pnpm lint:fix` — Runs ESLint fix for all files in the `src` directory.
+- `pnpm lint` — Runs Oxlint for all files in the `src` directory.
+- `pnpm lint:fix` — Runs Oxlint fix for all files in the `src` directory.
 - `pnpm format` — Runs Oxfmt for all files in the `src` directory.
 - `pnpm format:check` — Check Oxfmt list of files that need to be formatted.
 - `pnpm format:ci` — Oxfmt check for CI.
