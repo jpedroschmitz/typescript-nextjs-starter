@@ -35,7 +35,7 @@
   "devDependencies": {
     "@commitlint/cli": "20.4.4",
     "@commitlint/config-conventional": "20.4.4",
-    "@types/node": "25.4.0",
+    "@types/node": "25.5.0",
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
     "husky": "9.1.7",
