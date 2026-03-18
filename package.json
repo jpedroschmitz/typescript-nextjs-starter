@@ -42,7 +42,7 @@
     "lint-staged": "16.4.0",
     "oxfmt": "0.40.0",
     "oxlint": "1.55.0",
-    "oxlint-tsgolint": "0.16.0",
+    "oxlint-tsgolint": "0.17.0",
     "typescript": "5.9.3"
   },
   "lint-staged": {
