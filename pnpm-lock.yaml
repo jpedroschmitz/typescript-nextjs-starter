@@ -13,8 +13,8 @@ importers:
   .:
     dependencies:
       '@t3-oss/env-nextjs':
-        specifier: 0.13.10
-        version: 0.13.10(arktype@2.1.20)(typescript@5.9.3)(zod@4.3.6)
+        specifier: 0.13.11
+        version: 0.13.11(arktype@2.1.20)(typescript@5.9.3)(zod@4.3.6)
       babel-plugin-react-compiler:
         specifier: 1.0.0
         version: 1.0.0
@@ -666,8 +666,8 @@ packages:
   '@swc/helpers@0.5.15':
     resolution: {integrity: sha512-JQ5TuMi45Owi4/BIMAJBoSQoOJu12oOk/gADqlcUL9JEdHB8vyjUSsxqeNXnmXHjYKMi2WcYtezGEEhqUI/E2g==}
 
-  '@t3-oss/env-core@0.13.10':
-    resolution: {integrity: sha512-NNFfdlJ+HmPHkLi2HKy7nwuat9SIYOxei9K10lO2YlcSObDILY7mHZNSHsieIM3A0/5OOzw/P/b+yLvPdaG52g==}
+  '@t3-oss/env-core@0.13.11':
+    resolution: {integrity: sha512-sM7GYY+KL7H/Hl0BE0inWfk3nRHZOLhmVn7sHGxaZt9FAR6KqREXAE+6TqKfiavfXmpRxO/OZ2QgKRd+oiBYRQ==}
     peerDependencies:
       arktype: ^2.1.0
       typescript: '>=5.0.0'
@@ -683,8 +683,8 @@ packages:
       zod:
         optional: true
 
-  '@t3-oss/env-nextjs@0.13.10':
-    resolution: {integrity: sha512-JfSA2WXOnvcc/uMdp31paMsfbYhhdvLLRxlwvrnlPE9bwM/n0Z+Qb9xRv48nPpvfMhOrkrTYw1I5Yc06WIKBJQ==}
+  '@t3-oss/env-nextjs@0.13.11':
+    resolution: {integrity: sha512-NC+3j7YWgpzdFu1t5y/8wqibTK0lm5RS4bjXA1n8uwik3wIR4iZM4Fa+U2BaMa5k3Qk8RZiYhoAIX0WogmGkzg==}
     peerDependencies:
       arktype: ^2.1.0
       typescript: '>=5.0.0'
@@ -1604,15 +1604,15 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@t3-oss/env-core@0.13.10(arktype@2.1.20)(typescript@5.9.3)(zod@4.3.6)':
+  '@t3-oss/env-core@0.13.11(arktype@2.1.20)(typescript@5.9.3)(zod@4.3.6)':
     optionalDependencies:
       arktype: 2.1.20
       typescript: 5.9.3
       zod: 4.3.6
 
-  '@t3-oss/env-nextjs@0.13.10(arktype@2.1.20)(typescript@5.9.3)(zod@4.3.6)':
+  '@t3-oss/env-nextjs@0.13.11(arktype@2.1.20)(typescript@5.9.3)(zod@4.3.6)':
     dependencies:
-      '@t3-oss/env-core': 0.13.10(arktype@2.1.20)(typescript@5.9.3)(zod@4.3.6)
+      '@t3-oss/env-core': 0.13.11(arktype@2.1.20)(typescript@5.9.3)(zod@4.3.6)
     optionalDependencies:
       arktype: 2.1.20
       typescript: 5.9.3

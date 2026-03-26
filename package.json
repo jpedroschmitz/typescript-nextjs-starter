@@ -25,7 +25,7 @@
     "postinstall": "husky"
   },
   "dependencies": {
-    "@t3-oss/env-nextjs": "0.13.10",
+    "@t3-oss/env-nextjs": "0.13.11",
     "babel-plugin-react-compiler": "1.0.0",
     "next": "16.2.1",
     "react": "19.2.4",
