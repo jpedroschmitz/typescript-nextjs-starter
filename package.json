@@ -43,7 +43,7 @@
     "oxfmt": "0.41.0",
     "oxlint": "1.56.0",
     "oxlint-tsgolint": "0.17.1",
-    "typescript": "5.9.3"
+    "typescript": "6.0.2"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,mjs,cjs}": [
