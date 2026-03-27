@@ -40,8 +40,8 @@
     "@types/react-dom": "19.2.3",
     "husky": "9.1.7",
     "lint-staged": "16.4.0",
-    "oxfmt": "0.41.0",
-    "oxlint": "1.56.0",
+    "oxfmt": "0.42.0",
+    "oxlint": "1.57.0",
     "oxlint-tsgolint": "0.17.3",
     "typescript": "6.0.2"
   },
