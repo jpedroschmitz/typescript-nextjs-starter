@@ -4,17 +4,13 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-overrides:
-  '@types/react': 19.2.14
-  '@types/react-dom': 19.2.3
-
 importers:
 
   .:
     dependencies:
       '@t3-oss/env-nextjs':
         specifier: 0.13.11
-        version: 0.13.11(arktype@2.1.20)(typescript@6.0.2)(zod@4.3.6)
+        version: 0.13.11(typescript@6.0.2)(zod@4.3.6)
       babel-plugin-react-compiler:
         specifier: 1.0.0
         version: 1.0.0
@@ -66,12 +62,6 @@ importers:
         version: 6.0.2
 
 packages:
-
-  '@ark/schema@0.46.0':
-    resolution: {integrity: sha512-c2UQdKgP2eqqDArfBqQIJppxJHvNNXuQPeuSPlDML4rjw+f1cu0qAlzOG4b8ujgm9ctIDWwhpyw6gjG5ledIVQ==}
-
-  '@ark/util@0.46.0':
-    resolution: {integrity: sha512-JPy/NGWn/lvf1WmGCPw2VGpBg5utZraE84I7wli18EDF3p3zc/e9WolT35tINeZO3l7C77SjqRJeAUoT0CvMRg==}
 
   '@babel/code-frame@7.27.1':
     resolution: {integrity: sha512-cjQ7ZlQ0Mv3b47hABuTevyTuYN4i+loJKGeV9flcCgIK37cCXRh+L1bd3iBHlynerhQ7BhCkn2BPbQUL+rGqFg==}
@@ -706,7 +696,7 @@ packages:
   '@types/react-dom@19.2.3':
     resolution: {integrity: sha512-jp2L/eY6fn+KgVVQAOqYItbF0VY/YApe5Mz2F0aykSO8gx31bYCZyvSeYxCHKvzHG5eZjc+zyaS5BrBWya2+kQ==}
     peerDependencies:
-      '@types/react': 19.2.14
+      '@types/react': ^19.2.0
 
   '@types/react@19.2.14':
     resolution: {integrity: sha512-ilcTH/UniCkMdtexkoCN0bI7pMcJDvmQFPvuPvmEaYA/NSfFTAgdUSLAoVjaRJm7+6PvcM+q1zYOwS4wTYMF9w==}
@@ -736,9 +726,6 @@ packages:
 
   argparse@2.0.1:
     resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
-
-  arktype@2.1.20:
-    resolution: {integrity: sha512-IZCEEXaJ8g+Ijd59WtSYwtjnqXiwM8sWQ5EjGamcto7+HVN9eK0C4p0zDlCuAwWhpqr6fIBkxPuYDl4/Mcj/+Q==}
 
   array-ify@1.0.0:
     resolution: {integrity: sha512-c5AMf34bKdvPhQ7tBGhqkgKNUzMr4WUs+WDtC2ZUGOUncbxKMTvqxYctiseW3+L4bA8ec+GcZ6/A/FW4m8ukng==}
@@ -1189,14 +1176,6 @@ packages:
 
 snapshots:
 
-  '@ark/schema@0.46.0':
-    dependencies:
-      '@ark/util': 0.46.0
-    optional: true
-
-  '@ark/util@0.46.0':
-    optional: true
-
   '@babel/code-frame@7.27.1':
     dependencies:
       '@babel/helper-validator-identifier': 7.27.1
@@ -1604,17 +1583,15 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@t3-oss/env-core@0.13.11(arktype@2.1.20)(typescript@6.0.2)(zod@4.3.6)':
+  '@t3-oss/env-core@0.13.11(typescript@6.0.2)(zod@4.3.6)':
     optionalDependencies:
-      arktype: 2.1.20
       typescript: 6.0.2
       zod: 4.3.6
 
-  '@t3-oss/env-nextjs@0.13.11(arktype@2.1.20)(typescript@6.0.2)(zod@4.3.6)':
+  '@t3-oss/env-nextjs@0.13.11(typescript@6.0.2)(zod@4.3.6)':
     dependencies:
-      '@t3-oss/env-core': 0.13.11(arktype@2.1.20)(typescript@6.0.2)(zod@4.3.6)
+      '@t3-oss/env-core': 0.13.11(typescript@6.0.2)(zod@4.3.6)
     optionalDependencies:
-      arktype: 2.1.20
       typescript: 6.0.2
       zod: 4.3.6
 
@@ -1652,12 +1629,6 @@ snapshots:
   ansi-styles@6.2.1: {}
 
   argparse@2.0.1: {}
-
-  arktype@2.1.20:
-    dependencies:
-      '@ark/schema': 0.46.0
-      '@ark/util': 0.46.0
-    optional: true
 
   array-ify@1.0.0: {}
 
