@@ -8,7 +8,11 @@
       "enabled": false
     },
     {
-      "matchPackageNames": ["oxfmt", "oxlint", "oxlint-tsgolint"],
+      "matchPackageNames": ["oxfmt"],
+      "minimumReleaseAge": "3 days"
+    },
+    {
+      "matchPackageNames": ["oxlint", "oxlint-tsgolint"],
       "groupName": "oxlint packages"
     }
   ],
