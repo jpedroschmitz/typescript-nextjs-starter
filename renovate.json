@@ -1,14 +1,16 @@
 {
   "extends": ["config:recommended"],
   "labels": ["type: dependencies"],
-  "minimumReleaseAge": "3 days",
   "packageRules": [
+    {
+      "minimumReleaseAge": "3 days"
+    },
     {
       "matchPackageNames": ["node"],
       "enabled": false
     },
     {
-      "matchPackageNames": ["oxfmt", "oxlint", "oxlint-tsgolint"],
+      "matchPackageNames": ["oxlint", "oxlint-tsgolint"],
       "groupName": "oxlint packages"
     }
   ],
