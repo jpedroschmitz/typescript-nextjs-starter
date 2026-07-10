@@ -1,4 +1,4 @@
 allowBuilds:
   sharp: true
 
-minimumReleaseAge: 4320 # 3 days
+minimumReleaseAge: 1440 # 1 day
