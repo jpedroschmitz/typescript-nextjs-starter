@@ -15,7 +15,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "type-check": "node_modules/@typescript/native/bin/tsc --noEmit",
+    "type-check": "tsc --noEmit",
     "build:analyze": "next build && next experimental-analyze",
     "lint": "oxlint --type-aware",
     "lint:fix": "oxlint --fix --type-aware",
