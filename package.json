@@ -15,7 +15,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "type-check": "node_modules/@typescript/native/bin/tsc --noEmit",
+    "type-check": "tsc --noEmit",
     "build:analyze": "next build && next experimental-analyze",
     "lint": "oxlint --type-aware",
     "lint:fix": "oxlint --fix --type-aware",
@@ -27,7 +27,7 @@
   "dependencies": {
     "@t3-oss/env-nextjs": "0.13.11",
     "babel-plugin-react-compiler": "1.0.0",
-    "next": "16.2.12",
+    "next": "16.3.0",
     "react": "19.2.8",
     "react-dom": "19.2.8",
     "zod": "4.4.3"
@@ -35,16 +35,15 @@
   "devDependencies": {
     "@commitlint/cli": "21.2.1",
     "@commitlint/config-conventional": "21.2.0",
-    "@types/node": "25.9.5",
+    "@types/node": "26.2.0",
     "@types/react": "19.2.18",
     "@types/react-dom": "19.2.4",
-    "@typescript/native": "npm:typescript@7.0.2",
     "husky": "9.1.7",
     "lint-staged": "17.3.0",
-    "oxfmt": "0.62.0",
-    "oxlint": "1.77.0",
+    "oxfmt": "0.63.0",
+    "oxlint": "1.78.0",
     "oxlint-tsgolint": "7.0.2001",
-    "typescript": "npm:@typescript/typescript6@6.0.2"
+    "typescript": "7.0.2"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,mjs,cjs}": [
