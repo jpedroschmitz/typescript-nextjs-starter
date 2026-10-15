@@ -168,7 +168,7 @@ importers:
     dependencies:
       '@t3-oss/env-nextjs':
         specifier: 0.13.11
-        version: 0.13.11(typescript@7.0.2)(zod@4.6.6)
+        version: 0.13.11(typescript@7.0.2)(zod@4.6.7)
       babel-plugin-react-compiler:
         specifier: 1.0.0
         version: 1.0.0
@@ -182,8 +182,8 @@ importers:
         specifier: 19.3.0
         version: 19.3.0(react@19.3.0)
       zod:
-        specifier: 4.6.6
-        version: 4.6.6
+        specifier: 4.6.7
+        version: 4.6.7
     devDependencies:
       '@commitlint/cli':
         specifier: 21.2.3
@@ -1331,8 +1331,8 @@ packages:
     resolution: {integrity: sha512-4UEqdc2RYGHZc7Doyqkrqiln3p9X2DZVxaGbwhn2pi7MrRagKaOcIKe8L3OxYcbhXLgLFUS3zAYuQjKBQgmuNg==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=23}
 
-  zod@4.6.6:
-    resolution: {integrity: sha512-4UmzQUF5fxvfcYHlbjBmejU+w+hbDnWFx4aS8kBx7nPBHcO2SqPbpAG8snbdg+Xse4pRefR98hgjFgIMCI/UhA==}
+  zod@4.6.7:
+    resolution: {integrity: sha512-g8W2D2kU6a8untc053fX1uVBKzM7yqAxW/3zwk83+6RyF2+SKOuV+c0wBDhUwzV1PaGapmZH+rmcUzPf+3CGwg==}
 
 snapshots:
 
@@ -1748,17 +1748,17 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@t3-oss/env-core@0.13.11(typescript@7.0.2)(zod@4.6.6)':
+  '@t3-oss/env-core@0.13.11(typescript@7.0.2)(zod@4.6.7)':
     optionalDependencies:
       typescript: 7.0.2
-      zod: 4.6.6
+      zod: 4.6.7
 
-  '@t3-oss/env-nextjs@0.13.11(typescript@7.0.2)(zod@4.6.6)':
+  '@t3-oss/env-nextjs@0.13.11(typescript@7.0.2)(zod@4.6.7)':
     dependencies:
-      '@t3-oss/env-core': 0.13.11(typescript@7.0.2)(zod@4.6.6)
+      '@t3-oss/env-core': 0.13.11(typescript@7.0.2)(zod@4.6.7)
     optionalDependencies:
       typescript: 7.0.2
-      zod: 4.6.6
+      zod: 4.6.7
 
   '@types/node@26.6.5':
     dependencies:
@@ -2186,4 +2186,4 @@ snapshots:
       y18n: 5.0.8
       yargs-parser: 22.0.0
 
-  zod@4.6.6: {}
+  zod@4.6.7: {}
